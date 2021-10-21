@@ -3,7 +3,7 @@
 ## Technical information
 ### Repository URL
 Please add the URL to your repository below, then delete this instruction text.
-[Repository]()
+[Repository](https://github.com/ucl-comp0035/coursework-1-JiayingPan.git)
 
 ### Set-up instructions
 
