@@ -37,10 +37,10 @@ If the marker cannot execute your coursework they can't grade it!
   4. Is the air quality related to the country's geographic location (such as latitude and longitude)?
   
 - For region:
-  6. What time of day air pollution is the most serious and the possible causes?
-  7. What is the general variation trend of the open air quality during a day?
-  8. How much air quality index is we hope to maintain or pursue?
-  9. What actions need to be taken to reduce pollution to achieve our expected air quality?
+  1. What time of day air pollution is the most serious and the possible causes?
+  2. What is the general variation trend of the open air quality during a day?
+  3. How much air quality index is we hope to maintain or pursue?
+  4. What actions need to be taken to reduce pollution to achieve our expected air quality?
 
 
 ### Suggested web app
