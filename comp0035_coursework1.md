@@ -96,7 +96,7 @@ What I plan to do in the next week:
 
 
 Issues blocking my progress (state ‘None’ if there are no issues):
-None
+- None
 
 
 
