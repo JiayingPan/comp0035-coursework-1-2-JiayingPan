@@ -23,10 +23,25 @@ If the marker cannot execute your coursework they can't grade it!
 
 ## Definition of the business need
 ### Problem definition
+- OpenAQ is a community that aggregates and shares public data on physical air quality from global governments, research-grade and other institutions. They hope that these measured data could be more universally-accessible for humans and machines, so that people living in different regions can see the air quality in their regions and pay attention to environmental protection, so as to achieve sustainable development. They have very comprehensive data, but don’t know how to use it to attract the attention of the crowd and let more people see it. Since air pollution will directly endanger human health, so it will affect all people who are concerned about personal health and environmental protection, even people who go out (such as office workers, people traveling to other places, etc.) will all be interested in air issues. This is an opportunity for OpenAQ to increase the visibility of the community and raise the awareness of environmental protection by the whole people. For the target people, they can also plan and protect their travel through air quality at every moment, and pay more attention to low-carbon travel to reduce pollution and purify the air.
+
 
 ### Target audience
 
+
 ### Questions to be answered using the dataset
+- For global:
+  1. Is there a big difference in air quality in various regions of the world?
+  2. Where are the areas with the best average air quality in the world and where is the worst?
+  3. Is the air quality related to the country’s development and national conditions?
+  4. Is the air quality related to the country's geographic location (such as latitude and longitude)?
+  
+- For region:
+  6. What time of day air pollution is the most serious and the possible causes?
+  7. What is the general variation trend of the open air quality during a day?
+  8. How much air quality index is we hope to maintain or pursue?
+  9. What actions need to be taken to reduce pollution to achieve our expected air quality?
+
 
 ### Suggested web app
 
