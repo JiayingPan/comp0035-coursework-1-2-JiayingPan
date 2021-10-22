@@ -81,6 +81,24 @@ Issues blocking my progress (state ‘None’ if there are no issues):
 
 
 ### Report 2
+What I did in the last week:
+- Write a problem statement: Based on the information provided in the second week and the examples given in the PBL this week, I completed the problem statement about my data set. Based on the information on the open air quality webpage I selected, I listed the'Who, What, Where, When and Why' for it. For example, OpenAQ is a online community that summarizes air quality data measured by various professional departments around the world, but it is hoped that the collected data can be seen by people or machines more commonly to raise their awareness of environment protection.
+
+- Find target audience: In order to find the target audience, I created personas representing different types of users to find their needs and interests. For example, tourists may visit this webpage because they are concerned about the weather and air conditions of the destination, office workers may visit the webpage because they care about the air quality during their daily commuting, and environmentalists may track daily pollution emissions through the air quality index, etc.
+
+- Write data science questions: According to the air quality at each moment, we can visualize the data and generate a graph to represent the trend of change. According to the information displayed by the icon, we can solve: 1. What time of day air pollution is the most serious and the possible causes 2. How much air quality index is we hope to maintain or pursue 3. What actions need to be taken to reduce pollution to achieve our expected air quality.
+
+
+What I plan to do in the next week:
+- Watch videos: watch the 3 videos on Moodle about the introduction to data ethics, preparation and exploration, UCL computer science ethics for secondary data use and how to prepare data before starting to manage the data preparation and exploration.
+
+- Start coding: I will use python pandas to prepare my data set and start coding on python, and maybe do some additional research of how to program to achieve data visualization, including the installation of the matplotlib and relevant commands.
+
+
+Issues blocking my progress (state ‘None’ if there are no issues):
+None
+
+
 
 ### Report 3
 
