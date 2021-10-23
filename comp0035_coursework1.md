@@ -16,6 +16,7 @@ If the marker cannot execute your coursework they can't grade it!
 
 
 ## Selection of project methodology
+
 ### Methodology (or combination) selected
 
 ### Selection criteria and justification of selection
@@ -43,7 +44,6 @@ If the marker cannot execute your coursework they can't grade it!
   4. What actions need to be taken to reduce pollution to achieve our expected air quality?
 
 
-### Suggested web app
 
 ## Data preparation and exploration
 ### Data preparation
