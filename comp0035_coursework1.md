@@ -16,6 +16,39 @@ If the marker cannot execute your coursework they can't grade it!
 
 
 ## Selection of project methodology
+In order to select the appropriate project methodology, various data science process models, software engineering process models and hybrid process models are analyzed. Among them, CRISP-DM, SCRUM and Team Data Science Process are selected as the most typical methodologies for comparison. Each method is compared with 4 criterias to ensure the objectivity and comprehensiveness of the results. These criteria are specified as level of volatility in the requirements, level of skill and knowledge required to use, size of the project team and timeframe of the project the method respectively.
+
+- Level of volatility in the requirements <Fixed and unlikely to change through to highly likely to change frequently>
+  
+  CRISP-DM: It is a model that likely to change frequently. Its guide suggests to "iterate model building and assessment until you strongly believe that you have found the best model(s)”. Therefore, in practice, the team should continue to iterate until a sufficiently suitable model is found, continue to complete the CRISP-DM life cycle, and then further improve the model for optimization in future iterations.
+  
+  SCRUM: Changes that would endanger the sprint goal are not allowed to make during the sprint. The scrum team and the stakeholders will inspect the results and make adjustments for the next sprint. If aspects deviate outside acceptable limits or is resulting in unaccpetable product, the applied process or the produced materials must be adjusted as soon as possible to minimize further deviations.
+  
+  TDSP: It is a flexible methodology and may allow changes to be made. It can even be implemented with other approaches such CRISP-DM or by definition.
+
+- Level of skill and knowledge required to use the method  <Professional requirements for users and difficulty of getting started>
+  
+  CRISP-DM: It has low requirements for skills and professionalism, and can be implemented without much training, organizational role changes, or controversy. Since it starts with the business understanding, it is easy to be understanded and followed. 
+  
+  SCRUM: It has high requirements for skills and professional knowledge. It engages a group of people to have all the skills and expertise to complete the work, and share or acquire these skills as needed. Its team nature is cross-functional, meaning that members have all the skills needed to complete tasks and create value in each Sprint.
+  
+  TDSP: Its requirements for skills and knowledge are moderate, ranking between the first two methodologies. It is usually completed by a data science team, and set up professional roles to enrich the team definition, and defines the relevant tasks and artifacts for many of the team roles during each phase of the project life cycle.
+  
+- Size of the project team <Designed for an individual work or a team project management>
+  
+  CRISP-DM: It implicitly assumes that its user is a person or a small and tight team, while ignoring the teamwork required for large projects.
+  
+  SCRUM: The fundamental unit of Scrum is a small team of people. The Scrum team consists of a Scrum Master, a product owner and developers, and there are no sub-teams or hierarchies in a Scrum team.
+  
+  TDSP: It is designed for a medium to large data science team, and the team roles include solution architect, project manager, data engineer, data scientist, application developer and project lead to best work together to help improve team collaboration and learning.
+  
+- Timeframe of the project <Short or long timescale>
+  
+  CRISP-DM:
+  
+  SCRUM:
+  
+  TDSP:
 
 ### Methodology (or combination) selected
 
