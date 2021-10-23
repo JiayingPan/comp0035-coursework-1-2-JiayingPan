@@ -18,7 +18,7 @@ If the marker cannot execute your coursework they can't grade it!
 ## Selection of project methodology
 In order to select the appropriate project methodology, various data science process models, software engineering process models and hybrid process models are analyzed. Among them, CRISP-DM, SCRUM and Team Data Science Process are selected as the most typical methodologies for comparison. Each method is compared with 4 criterias to ensure the objectivity and comprehensiveness of the results. These criteria are specified as level of volatility in the requirements, level of skill and knowledge required to use, size of the project team and timeframe of the project the method respectively.
 
-- Level of volatility in the requirements <Fixed and unlikely to change through to highly likely to change frequently>
+- Level of volatility in the requirements (Fixed and unlikely to change through to highly likely to change frequently)
   
   CRISP-DM: It is a model that likely to change frequently. Its guide suggests to "iterate model building and assessment until you strongly believe that you have found the best model(s)”. Therefore, in practice, the team should continue to iterate until a sufficiently suitable model is found, continue to complete the CRISP-DM life cycle, and then further improve the model for optimization in future iterations.
   
@@ -26,7 +26,7 @@ In order to select the appropriate project methodology, various data science pro
   
   TDSP: It is a flexible methodology and may allow changes to be made. It can even be implemented with other approaches such CRISP-DM and SCRUM or by definition.
 
-- Level of skill and knowledge required to use the method  <Professional requirements for users and difficulty of getting started>
+- Level of skill and knowledge required to use the method  (Professional requirements for users and difficulty of getting started)
   
   CRISP-DM: It has low requirements for skills and professionalism, and can be implemented without much training, organizational role changes, or controversy. Since it starts with the business understanding, it is easy to be understanded and followed. 
   
@@ -34,7 +34,7 @@ In order to select the appropriate project methodology, various data science pro
   
   TDSP: Its requirements for skills and knowledge are moderate, ranking between the first two methodologies. It is usually completed by a data science team, and set up professional roles to enrich the team definition, and defines the relevant tasks and artifacts for many of the team roles during each phase of the project life cycle.
   
-- Size of the project team <Designed for an individual work or a team project management>
+- Size of the project team (Designed for an individual work or a team project management)
   
   CRISP-DM: It implicitly assumes that its user is a person or a small and tight team, while ignoring the teamwork required for large projects.
   
@@ -42,7 +42,7 @@ In order to select the appropriate project methodology, various data science pro
   
   TDSP: It is designed for a medium to large data science team, and the team roles include solution architect, project manager, data engineer, data scientist, application developer and project lead to best work together to help improve team collaboration and learning.
   
-- Timeframe of the project <Short or long timescale>
+- Timeframe of the project (Short or long timescale)
   
   CRISP-DM: Using this methodology will take a relatively long timescale on documentating, because almost every task has a documentation step. Although such lengthy and repetitive documentation steps ensure the maturity of the process, the documentation requirements of CRISP-DM may unnecessarily slow down the team's actual delivery of increments.
   
@@ -52,6 +52,8 @@ In order to select the appropriate project methodology, various data science pro
 
   
 ### Methodology (or combination) selected
+CRISP-DM is selected as the final methodology used in this project. 
+
 
 ### Selection criteria and justification of selection
 
@@ -65,15 +67,15 @@ In order to select the appropriate project methodology, various data science pro
 
 
 ### Questions to be answered using the dataset
-- For global:
+- For global (all the data sets):
   1. Is there a big difference in air quality in various regions of the world?
   2. Where are the areas with the best average air quality in the world and where is the worst?
   3. Is the air quality related to the country’s development and national conditions?
   4. Is the air quality related to the country's geographic location (such as latitude and longitude)?
   
-- For region:
+- For region (the specified data set used in this project):
   1. What time of day air pollution is the most serious and the possible causes?
-  2. What is the general variation trend of the open air quality during a day?
+  2. What is the overall trend of the open air quality throughout the day, and what relevant suggestions can be given to users based on the air quality index?
   3. How much air quality index is we hope to maintain or pursue?
   4. What actions need to be taken to reduce pollution to achieve our expected air quality?
 
