@@ -24,7 +24,7 @@ In order to select the appropriate project methodology, various data science pro
   
   SCRUM: Changes that would endanger the sprint goal are not allowed to make during the sprint. The scrum team and the stakeholders will inspect the results and make adjustments for the next sprint. If aspects deviate outside acceptable limits or is resulting in unaccpetable product, the applied process or the produced materials must be adjusted as soon as possible to minimize further deviations.
   
-  TDSP: It is a flexible methodology and may allow changes to be made. It can even be implemented with other approaches such CRISP-DM or by definition.
+  TDSP: It is a flexible methodology and may allow changes to be made. It can even be implemented with other approaches such CRISP-DM and SCRUM or by definition.
 
 - Level of skill and knowledge required to use the method  <Professional requirements for users and difficulty of getting started>
   
@@ -44,12 +44,13 @@ In order to select the appropriate project methodology, various data science pro
   
 - Timeframe of the project <Short or long timescale>
   
-  CRISP-DM:
+  CRISP-DM: Using this methodology will take a relatively long timescale on documentating, because almost every task has a documentation step. Although such lengthy and repetitive documentation steps ensure the maturity of the process, the documentation requirements of CRISP-DM may unnecessarily slow down the team's actual delivery of increments.
   
-  SCRUM:
+  SCRUM: This methodology uses Sprint as a container for all other event and the timescale of each Sprint is short. For Sprints they are fixed-length events of one month or less (about 2-4 weeks) to create consistency, and a new Sprint starts immediately after the previous Sprint ends.
   
-  TDSP:
+  TDSP: The timescle of this methodology depends on whether it is implemented with other process models or by itself. For example, for teams that use SCRUM in the development of TDSP, fixed-length sprints are challenging for many data scientists. However, for teams that can use a fixed-length sprint cadence and are looking for a comprehensive, modern, and agile approach, TDSP is a reliable choice.
 
+  
 ### Methodology (or combination) selected
 
 ### Selection criteria and justification of selection
