@@ -16,15 +16,22 @@ If the marker cannot execute your coursework they can't grade it!
 
 
 ## Selection of project methodology
+### Methodology (or combination) selected
+According to the comparison made below, CRISP-DM, a process model of data science is selected as the final methodology used in this project. 
+
+
+### Selection criteria and justification of selection
 In order to select the appropriate project methodology, various data science process models, software engineering process models and hybrid process models are analyzed. Among them, CRISP-DM, SCRUM and Team Data Science Process are selected as the most typical methodologies for comparison. Each method is compared with 4 criterias to ensure the objectivity and comprehensiveness of the results. These criteria are specified as level of volatility in the requirements, level of skill and knowledge required to use, size of the project team and timeframe of the project the method respectively.
+
+#### Selection criteria:
 
 - Level of volatility in the requirements (Fixed and unlikely to change through to highly likely to change frequently)
   
-  CRISP-DM: It is a model that likely to change frequently. Its guide suggests to "iterate model building and assessment until you strongly believe that you have found the best model(s)”. Therefore, in practice, the team should continue to iterate until a sufficiently suitable model is found, continue to complete the CRISP-DM life cycle, and then further improve the model for optimization in future iterations.
+  CRISP-DM: It is a model that likely to change frequently. It provides an iterative approach that includes frequent opportunities to evaluate project progress against the original objectives to minimize the risk of discovering that the business objectives have not yet been achieved at the end of the project. This also means that project stakeholders can adjust and change objectives based on new findings. [1]
   
-  SCRUM: Changes that would endanger the sprint goal are not allowed to make during the sprint. The scrum team and the stakeholders will inspect the results and make adjustments for the next sprint. If aspects deviate outside acceptable limits or is resulting in unaccpetable product, the applied process or the produced materials must be adjusted as soon as possible to minimize further deviations.
+  SCRUM: It recognizes that what customers want or need will always change, and this challenge is usually unpredictable. So it applies an evidence-based empirical method that accepts that problems cannot be fully understood or identified in the early stages.[2] But during each sprint, changes that would endanger the sprint goal are not allowed to make. The scrum team and the stakeholders will inspect the results and make adjustments for the next sprint.
   
-  TDSP: It is a flexible methodology and may allow changes to be made. It can even be implemented with other approaches such CRISP-DM and SCRUM or by definition.
+  TDSP: It is a flexible methodology and may allow changes to be made. It can be implemented with other approaches such CRISP-DM and SCRUM or by definition.
 
 - Level of skill and knowledge required to use the method  (Professional requirements for users and difficulty of getting started)
   
@@ -49,14 +56,16 @@ In order to select the appropriate project methodology, various data science pro
   SCRUM: This methodology uses Sprint as a container for all other event and the timescale of each Sprint is short. For Sprints they are fixed-length events of one month or less (about 2-4 weeks) to create consistency, and a new Sprint starts immediately after the previous Sprint ends.
   
   TDSP: The timescle of this methodology depends on whether it is implemented with other process models or by itself. For example, for teams that use SCRUM in the development of TDSP, fixed-length sprints are challenging for many data scientists. However, for teams that can use a fixed-length sprint cadence and are looking for a comprehensive, modern, and agile approach, TDSP is a reliable choice.
-
   
-### Methodology (or combination) selected
-CRISP-DM is selected as the final methodology used in this project. 
+#### Justification:
+Since the selected open air quality data set contains a lot of digital data, the selected process model should be more biased towards data science rather than software engineering. The first three criteria all show the advantages of CRISP-DM compared to other models, which are high requirements volatility, easy to use and suitable for individuals or small groups.
+- High requirements volatility: The iterative method of CRISP-DM allows stakeholders to adjust and change their objectives through model progress and findings, so its level of volatility is relatively high. Such flexible requirements volatility helps to deepen business understanding and optimize the model.
 
+- Easy to use: As a new starter of data science, I tend to choose a methodology that does not require so much skill and professionalism, because I want to start the project quickly and make progress but do not need to go through tedious training and learning. From this point, CRISP-DM would be a good choice. Its entry requirements are not like SCRUM and TDSP, which require professional skills and even divide project roles. Its starting point of a project is to start thinking from a business perspective instead of directly contacting and processing data. 
 
-### Selection criteria and justification of selection
+- Suitable project team size: As a personal independent coursework, the project is completed by myself. I may discuss with peers or PGTA, but I will not collabrate with others. Therefore, compared with the other two methodologies that include team project management, the structure of CRISP-DM is more friendly to individual or small group projects.
 
+The fourth criteria mentions a constraint of CRISP-DM, which is heavy documentation. But in general, combined with other advantages of generalizability, common sense, right start, strong completion and flexibility, it is still regarded as the most suitable method for this project.
 
 ## Definition of the business need
 ### Problem definition
@@ -96,19 +105,6 @@ Please add names of your data set files in this repository below, then delete th
 [Data Exploration]()
 
 ## Weekly progress reports
-Copy and paste from Moodle or use the following structure. Delete this instruction text.
-
-What I did in the last week:
-- item
-- item
-
-What I plan to do in the next week:
-- item
-- item
-
-Issues blocking my progress (state ‘None’ if there are no issues):
-- item
-- item
 
 ### Report 1
 What I did in the last week:
@@ -158,3 +154,6 @@ Issues blocking my progress (state ‘None’ if there are no issues):
 ## References
 Use any [referencing style](https://library-guides.ucl.ac.uk/referencing-plagiarism/referencing-styles) that you are
 used to using in your course.
+1. https://thinkinsights.net/digital/crisp-dm/
+2. https://opus.lib.uts.edu.au/bitstream/10453/123178/2/02whole.pdf
+3. 
