@@ -69,11 +69,29 @@ The fourth criteria mentions a constraint of CRISP-DM, which is heavy documentat
 
 ## Definition of the business need
 ### Problem definition
-- OpenAQ is a community that aggregates and shares public data on physical air quality from global governments, research-grade and other institutions. They hope that these measured data could be more universally-accessible for humans and machines, so that people living in different regions can see the air quality in their regions and pay attention to environmental protection, so as to achieve sustainable development. They have very comprehensive data, but don’t know how to use it to attract the attention of the crowd and let more people see it. Since air pollution will directly endanger human health, so it will affect all people who are concerned about personal health and environmental protection, even people who go out (such as office workers, people traveling to other places, etc.) will all be interested in air issues. This is an opportunity for OpenAQ to increase the visibility of the community and raise the awareness of environmental protection by the whole people. For the target people, they can also plan and protect their travel through air quality at every moment, and pay more attention to low-carbon travel to reduce pollution and purify the air.
+- OpenAQ is a community that aggregates and shares public data on physical air quality from global governments, research-grade and other institutions. They hope that these measured data could be more universally-accessible for humans and machines, so that people living in different regions can see the air quality in their regions and pay attention to environmental protection, so as to achieve sustainable development. They have very comprehensive data, but don’t know how to use it to attract the attention of the crowd and let more people see it. Since air pollution will directly endanger human health, so it will affect all people who are concerned about personal health and environmental protection(such air quality specialist，air forecaster, environmentalists, etc.), even people who go out (such as commuters, tourists, etc.) will all be interested in air issues. This is an opportunity for OpenAQ to increase the visibility of the community and raise the awareness of environmental protection by the whole people. For the target people, they can also plan and protect their travel through air quality at every moment, and pay more attention to low-carbon travel to reduce pollution and purify the air.
 
 
 ### Target audience
+#### Persona 1:
+- Persona role: Commuter
+<img width="1061" alt="image" src="https://user-images.githubusercontent.com/92019801/138783909-1f019f38-eb66-48b8-8219-dff07ba3bc83.png">
 
+#### Persona 2:
+- Persona role: Tourist
+<img width="1060" alt="persona2" src="https://user-images.githubusercontent.com/92019801/138785817-34fb9739-3cc7-4eb5-9d1f-d4cc0f6ebf56.png">
+
+#### Persona 3:
+- Persona role: Environmentalist
+<img width="1060" alt="persona3" src="https://user-images.githubusercontent.com/92019801/138783128-a817141a-8409-4fff-a288-079163b4f3b1.png">
+
+#### Persona 4:
+- Persona role: Air forcaster
+<img width="1061" alt="persona4" src="https://user-images.githubusercontent.com/92019801/138784023-0398897c-f4a6-47d0-a716-fcf9343d31f2.png">
+
+#### Persona 5:
+- Persona role: Air quality specialist
+<img width="1060" alt="persona5" src="https://user-images.githubusercontent.com/92019801/138786087-eb66eb5c-2d83-4a24-b260-8a301f0906de.png">
 
 ### Questions to be answered using the dataset
 - For global (all the data sets):
