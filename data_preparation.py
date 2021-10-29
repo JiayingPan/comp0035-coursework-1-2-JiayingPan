@@ -23,9 +23,9 @@ if __name__ == '__main__':
     print(df1_isna)
 
     # 5. Drop rows where there is a na in the value
-    df1.dropna(axis=0, inplace=True, subset=['value'])
-    df1_isna = df1[df1.isna().any(axis=1)]
-    print(df1_isna)
+    #df1.dropna(axis=0, inplace=True, subset=['value'])
+    #df1_isna = df1[df1.isna().any(axis=1)]
+    #print(df1_isna)
 
     # 6. Find the unique values for the Type column
     print(df1['parameter'].unique())
@@ -45,9 +45,9 @@ if __name__ == '__main__':
     print(df2.isna().sum().sum())
     df2_isna = df2[df2.isna().any(axis=1)]
     print(df2_isna)
-    df2.dropna(axis=0, inplace=True, subset=['value'])
-    df2_isna = df2[df1.isna().any(axis=1)]
-    print(df2_isna)
+    #df2.dropna(axis=0, inplace=True, subset=['value'])
+    #df2_isna = df2[df1.isna().any(axis=1)]
+    #print(df2_isna)
     print(df2['parameter'].unique())
     #df2['parameter'] = df2['parameter'].str.strip()
     #print(df2['parameter'].unique())
