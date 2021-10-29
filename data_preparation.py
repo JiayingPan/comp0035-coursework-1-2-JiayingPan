@@ -49,7 +49,7 @@ if __name__ == '__main__':
     df2_isna = df2[df1.isna().any(axis=1)]
     print(df2_isna)
     print(df2['parameter'].unique())
-    # df2['parameter'] = df2['parameter'].str.strip()
+    #df2['parameter'] = df2['parameter'].str.strip()
     #print(df2['parameter'].unique())
 
     # 9. Merge the columns where df1['utc'] matches df2['utc']
