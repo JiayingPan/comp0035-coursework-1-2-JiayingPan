@@ -94,17 +94,13 @@ The fourth criteria mentions a constraint of CRISP-DM, which is heavy documentat
 <img width="1060" alt="persona5" src="https://user-images.githubusercontent.com/92019801/138786087-eb66eb5c-2d83-4a24-b260-8a301f0906de.png">
 
 ### Questions to be answered using the dataset
-- For global (all the data sets):
-  1. Is there a big difference in air quality in various regions of the world?
-  2. Where are the areas with the best average air quality in the world and where is the worst?
-  3. Is the air quality related to the country’s development and national conditions?
-  4. Is the air quality related to the country's geographic location (such as latitude and longitude)?
-  
 - For region (the specified data set used in this project):
   1. What time of day air pollution is the most serious and the possible causes?
-  2. What is the overall trend of the open air quality throughout the day, and what relevant suggestions can be given to users based on the air quality index?
-  3. How much air quality index is we hope to maintain or pursue?
-  4. What actions need to be taken to reduce pollution to achieve our expected air quality?
+  3. What is the overall trend of the open air quality throughout the day?
+  4. Which pollutant has the highest proportion in the air？
+  5. What relevant suggestions can be given to users based on the air quality index?
+  6. How much air quality index is we hope to maintain or pursue?
+  7. What actions need to be taken to reduce pollution to achieve our expected air quality?
 
 
 
