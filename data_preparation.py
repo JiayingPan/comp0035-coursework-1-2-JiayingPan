@@ -56,6 +56,9 @@ if __name__ == '__main__':
     df_merged = pd.merge(df1, df2, on='utc', how='outer')
     print(df_merged.info())
 
+    # 10. Export the prepared dataframe to a new csv file
+    df_merged.to_csv(r'C:\Users\Ron\Desktop\prepared_dataset.csv', index=False, header=True)
+
 
 
 
