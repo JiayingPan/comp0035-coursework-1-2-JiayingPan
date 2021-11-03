@@ -14,7 +14,7 @@ if __name__ == '__main__':
     print(df1.info(verbose=True))
 
     # 3. Drop the list of named columns `['locationId', 'city', 'local', 'unit', 'latitude', 'longitude']
-    df1.drop(['locationId', 'city', 'local', 'unit', 'latitude', 'longitude'], axis=1, inplace=True)
+    df1.drop(['locationId', 'city', 'country', 'local',  'unit', 'latitude', 'longitude'], axis=1, inplace=True)
     print(df1.info())
 
     # 4. Find and count the number of missing values, create a dataframe with the rows that contain missing values
@@ -56,7 +56,15 @@ if __name__ == '__main__':
     df_merged = pd.merge(df1, df2, on='utc', how='outer')
     print(df_merged.info())
 
-    # 10. Export the prepared dataframe to a new csv file
+    # 10. Rename the columns of 'value_x' and 'value_y' to distinguish PM2.5 and PM10
+    df_merged.rename(columns={'value_x':'PM2.5', 'value_y':'PM10'}, inplace=True)
+    print(df_merged.info())
+
+    # 11. Drop the columns of 'parameter_x' and 'parameter_y' with duplicate information
+    df_merged.drop(['parameter_x', 'parameter_y'], axis=1, inplace=True)
+    print(df_merged.info())
+
+    # 12. Export the prepared dataframe to a new csv file
     df_merged.to_csv(r'C:\Users\Ron\Desktop\prepared_dataset.csv', index=False, header=True)
 
 
