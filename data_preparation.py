@@ -60,6 +60,3 @@ if __name__ == '__main__':
     df_merged.to_csv(r'C:\Users\Ron\Desktop\prepared_dataset.csv', index=False, header=True)
 
 
-
-
-
