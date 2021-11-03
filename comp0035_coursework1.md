@@ -97,10 +97,11 @@ The fourth criteria mentions a constraint of CRISP-DM, which is heavy documentat
 - For region (the specified data set used in this project):
   1. What time of day air pollution is the most serious and the possible causes?
   3. What is the overall trend of the open air quality throughout the day?
-  4. Which pollutant has the highest proportion in the air？
-  5. What relevant suggestions can be given to users based on the air quality index?
-  6. How much air quality index is we hope to maintain or pursue?
-  7. What actions need to be taken to reduce pollution to achieve our expected air quality?
+  4. What is the overall trend of the open air quality throughout the month?
+  5. Which pollutant has the highest proportion in the air？
+  6. What relevant suggestions can be given to users based on the air quality index?
+  7. How much air quality index is we hope to maintain or pursue?
+  8. What actions need to be taken to reduce pollution to achieve our expected air quality?
 
 
 
@@ -110,9 +111,9 @@ The fourth criteria mentions a constraint of CRISP-DM, which is heavy documentat
 [Data Preparation](data_preparation.py)
 
 ### Prepared data set
-Please add names of your data set files in this repository below, then delete this instruction text.
-[Original data set]()
-[Prepared data set]()
+[Original data set 1](London_PM2.5.csv)
+[Original data set 2](London_PM2.5.csv)
+[Prepared data set](prepared_dataset.csv)
 
 ### Data exploration
 
@@ -162,6 +163,22 @@ Issues blocking my progress (state ‘None’ if there are no issues):
 
 
 ### Report 3
+What I did in the last week:
+- Data set selection: There are tens of thousands of data sets in open air qulity, including the detection data of different pollutants in the air in different countries and regions. I need to select the ones that are needed to answer my problems. And finally I have selected the datasets of PM2.5 and PM10 in London bloomsbury. 
+
+- Data preparation: I used the python pandas to prepare my data, and used the steps taught in the PBL-4 session, to delete the columns I don't need in the dataset, check if there are any missing values, and finally merged the PM2.5 and PM10 data sets together.
+
+
+What I plan to do in the next week:
+- Data exploration: By using the generated new data sets, create a dashboard, and complete the data visualization.
+
+- Consider if to add another data set: So far I have selected 2 data sets to compare the different pollutants in the same region. Next week after done the exploration I may consider to add another sets of data to compare the pollutants in different regions. [Optional]
+
+
+Issues blocking my progress (state ‘None’ if there are no issues):
+- Selection of needed data sets: There are too many data sets in the webpage, I have to select data sets that updates frequently and also with high quality. That takes a long time.
+
+
 
 ### Report 4
 
