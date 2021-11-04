@@ -62,9 +62,14 @@ if __name__ == '__main__':
 
     # 11. Drop the columns of 'parameter_x' and 'parameter_y' with duplicate information
     df_merged.drop(['parameter_x', 'parameter_y'], axis=1, inplace=True)
+
+    # 12. Add a column to calculate the total PM values
+    df_merged.loc[:, 'Total'] = df_merged.sum(numeric_only=True, axis=1)
     print(df_merged.info())
 
-    # 12. Export the prepared dataframe to a new csv file
-    df_merged.to_csv('prepared_dataset.csv', index=False, header=True)
+    # 13. Change the order of the 'Total' and 'unit' columns
+    df_merged = df_merged.iloc[:,[0,1,2,3,5,4]]
 
+    # 13. Export the prepared dataframe to a new csv file
+    df_merged.to_csv('prepared_dataset.csv', index=False, header=True)
 
