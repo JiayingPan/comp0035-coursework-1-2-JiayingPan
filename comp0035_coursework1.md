@@ -110,8 +110,8 @@ The fourth criteria mentions a constraint of CRISP-DM, which is heavy documentat
 [Data Preparation](data_preparation.py)
 
 ### Prepared data set
-[Original data set 1](London_PM2.5.csv)
-[Original data set 2](London_PM2.5.csv)
+[Original data set 1](Data/London_PM2.5.csv)
+[Original data set 2](Data/London_PM10.csv)
 [Prepared data set](prepared_dataset.csv)
 
 ### Data exploration
