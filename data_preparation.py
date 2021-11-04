@@ -58,7 +58,6 @@ if __name__ == '__main__':
 
     # 10. Rename the columns of 'value_x' and 'value_y' to distinguish PM2.5 and PM10
     df_merged.rename(columns={'value_x':'PM2.5', 'value_y':'PM10'}, inplace=True)
-    print(df_merged.info())
 
     # 11. Drop the columns of 'parameter_x' and 'parameter_y' with duplicate information
     df_merged.drop(['parameter_x', 'parameter_y'], axis=1, inplace=True)
