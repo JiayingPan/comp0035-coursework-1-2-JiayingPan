@@ -69,5 +69,9 @@ if __name__ == '__main__':
     # 13. Change the order of the 'Total' and 'unit' columns
     df_merged = df_merged.iloc[:,[0,1,2,3,5,4]]
 
-    # 14. Export the prepared dataframe to a new csv file
+    # 14. Convert 'utc' to datetime
+    df_merged['utc'] = pd.to_datetime(df_merged['utc'])
+    print(df_merged.info())
+
+    # 15. Export the prepared dataframe to a new csv file
     df_merged.to_csv('Data/Prepared_dataset.csv', index=False, header=True)
