@@ -3,7 +3,7 @@ import pandas as pd
 if __name__ == '__main__':
 
     # Add a line of code to print the dataframe contents
-    df1 = pd.read_csv('London_PM2.5.csv')
+    df1 = pd.read_csv('Data/London_PM2.5.csv')
     pd.set_option('display.max_rows', df1.shape[0] + 1)
     pd.set_option('display.max_columns', df1.shape[1] + 1)
 
@@ -35,7 +35,7 @@ if __name__ == '__main__':
     #print(df1['parameter'].unique())
 
     # 8. Clean the data for the second data set in a same way
-    df2 = pd.read_csv('London_PM10.csv')
+    df2 = pd.read_csv('Data/London_PM10.csv')
     pd.set_option('display.max_rows', df1.shape[0] + 1)
     pd.set_option('display.max_columns', df1.shape[1] + 1)
     print(df2.shape)
@@ -70,5 +70,5 @@ if __name__ == '__main__':
     df_merged = df_merged.iloc[:,[0,1,2,3,5,4]]
 
     # 13. Export the prepared dataframe to a new csv file
-    df_merged.to_csv('prepared_dataset.csv', index=False, header=True)
+    df_merged.to_csv('Data/Prepared_dataset.csv', index=False, header=True)
 
