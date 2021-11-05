@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 import pandas as pd
-import numpy as np
 
 
 def set_pandas_display_options(df):
@@ -21,56 +20,43 @@ if __name__ == '__main__':
 
     # 2. Generate a box plot to show the outliers (in a same box with same scale)
     bp = df.plot.box()
-    plt.show()
 
     # 3. Generate box plots to show the outliers (in separate boxes with different scale)
     bp_sub = df.plot.box(subplots=True)
-    plt.show()
 
     # 4. Generate a line plot of the data
-    cols = ["PM2.5", "PM10", "Total"]
-    df = pd.read_csv('data/Prepared_dataset.csv', usecols=cols)
-    line_plot = df.plot.line()
-    plt.show()
+    line_plot = df.plot.line(y= ['PM10','PM2.5','Total'], xlabel="No.Data", ylabel="µg/m³")
 
-    # 5. Create two new dataframes, one with PM2.5 data and one with PM10 data
-    #df_PM25 = df.loc[df['PM2.5'] == 'PM2.5']
-    #df_PM10 = df.loc[df['PM10'] == 'PM10']
+    # 5. Create three line plots of PM values versus dates
+    df.plot.line(x='utc', y= ['PM10','PM2.5','Total'], ylabel="µg/m³", title="PM Monthly Variation")
+    df.plot.line(x='utc', y= 'PM2.5', ylabel="µg/m³", title="PM2.5 Monthly Variation")
+    df.plot.line(x='utc', y= 'PM10', ylabel="µg/m³", title="PM10 Monthly Variation")
 
-    # 6. Reset the index of each of the new dataframes
-    #df_PM25.reset_index(drop=True, inplace=True)
-    #df_PM10.reset_index(drop=True, inplace=True)
-
-    # 7. Create two line plots of PM values
-    cols = ["PM2.5"]
-    df = pd.read_csv('data/Prepared_dataset.csv', usecols=cols)
-    line_plot = df.plot.line()
-    plt.show()
-
-    cols = ["PM10"]
-    df = pd.read_csv('data/Prepared_dataset.csv', usecols=cols)
-    line_plot = df.plot.line()
-    plt.show()
-
-    # 8. Create a line plot of PM2.5/PM10 ratio
-    cols = ['PM2.5', 'PM10']
-    df = pd.read_csv('data/Prepared_dataset.csv', usecols=cols, dtype={'utc': str, 'unit': str})
+    # 6. Create a line plot of PM2.5/PM10 ratio
     df['PM2.5:PM10'] = df['PM2.5'] / df['PM10']
-    line_plot = df.plot.line(y='PM2.5:PM10', label="PM2.5/PM10 Ratio")
-    plt.show()
+    df.plot.line(x='utc', y='PM2.5:PM10', label="PM2.5/PM10 Ratio", title="PM Monthly Ratio Trend")
 
-    # 9. Define the % equation
-    cols = ['PM2.5', 'PM10', 'Total']
-    df = pd.read_csv('data/Prepared_dataset.csv', usecols=cols, dtype={'utc': str, 'unit': str})
+    # 7. Define the % equation
     df['PM2.5%'] = df['PM2.5'] / df['Total']
     df['PM10%'] = df['PM10'] / df['Total']
 
-    # 10. Create the stacked bar plot of the % for PM2.5 and PM10
-    df.plot.bar(y=['PM2.5%', 'PM10%'], stacked=True)
+    # 8. Create the stacked bar plot of the % for PM2.5 and PM10
+    df.plot.bar(x='utc',y=['PM2.5%', 'PM10%'], stacked=True, title="PM Monthly Proportions")
 
-    # 11. Ensures the x-axis labels are fully visible
-    plt.gcf().subplots_adjust(bottom=0.1)
+    # 9. Create line plots of the PM values in a certain day,
+    # and ensures the x-axis labels are fully visible
+    print(df[0:24])
+    df.iloc[0:24].plot(x='utc',y=['PM2.5', 'PM10', 'Total'], ylabel="µg/m³", title="PM Daily Variation")
+    plt.gcf().subplots_adjust(bottom=0.15)
+    df.iloc[0:24].plot(x='utc',y='PM2.5', ylabel="µg/m³", title="PM2.5 Daily Variation")
+    plt.gcf().subplots_adjust(bottom=0.15)
+    df.iloc[0:24].plot(x='utc',y='PM10', ylabel="µg/m³", title="PM10 Daily Variation")
+    plt.gcf().subplots_adjust(bottom=0.15)
+
+    # 10. Show all the plotting results
     plt.show()
+
+
 
 
 
