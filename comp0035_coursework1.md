@@ -116,7 +116,7 @@ The fourth criteria mentions a constraint of CRISP-DM, which is heavy documentat
 
 ### Data exploration
 
-[Data Exploration]()
+[Data Exploration](data_exploration.py)
 
 ## Weekly progress reports
 
