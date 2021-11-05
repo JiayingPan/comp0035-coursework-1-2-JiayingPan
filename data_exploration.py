@@ -34,12 +34,12 @@ if __name__ == '__main__':
     plt.show()
 
     # 5. Create two new dataframes, one with PM2.5 data and one with PM10 data
-    df_PM25 = df.loc[df['PM2.5'] == 'PM2.5']
-    df_PM10 = df.loc[df['PM10'] == 'PM10']
+    #df_PM25 = df.loc[df['PM2.5'] == 'PM2.5']
+    #df_PM10 = df.loc[df['PM10'] == 'PM10']
 
     # 6. Reset the index of each of the new dataframes
-    df_PM25.reset_index(drop=True, inplace=True)
-    df_PM10.reset_index(drop=True, inplace=True)
+    #df_PM25.reset_index(drop=True, inplace=True)
+    #df_PM10.reset_index(drop=True, inplace=True)
 
     # 7. Create two line plots of PM values
     cols = ["PM2.5"]
