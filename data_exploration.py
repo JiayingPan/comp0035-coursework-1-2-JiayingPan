@@ -43,8 +43,7 @@ if __name__ == '__main__':
     # 8. Create the stacked bar plot of the % for PM2.5 and PM10
     df.plot.bar(x='utc',y=['PM2.5%', 'PM10%'], stacked=True, title="PM Monthly Proportions")
 
-    # 9. Create line plots of the PM values in a certain day,
-    # and ensures the x-axis labels are fully visible
+    # 9. Create line plots of the PM values in a certain day, and make the x-axis labels fully visible
     print(df[0:24])
     df.iloc[0:24].plot(x='utc',y=['PM2.5', 'PM10', 'Total'], ylabel="µg/m³", title="PM Daily Variation")
     plt.gcf().subplots_adjust(bottom=0.15)
