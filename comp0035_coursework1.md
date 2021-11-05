@@ -116,7 +116,7 @@ The fourth criteria mentions a constraint of CRISP-DM, which is heavy documentat
 
 ### Data exploration
 
-[Data Exploration]()
+[Data Exploration](data_exploration.py)
 
 ## Weekly progress reports
 
@@ -180,6 +180,21 @@ Issues blocking my progress (state ‘None’ if there are no issues):
 
 
 ### Report 4
+What I did in the last week:
+- Update data preparation: During the data exploration, I found some insufficient treatments of data in the data preparation step. For example, I could delete more useless columns such as country; I need to convert ‘utc' into datetime; And I could add a total column to sum the values of PM2.5 and PM10; etc.
+
+- Data exploration: I tried to use the methods taught in PBL5 to generate some box plots to show the outliers, or to generate some line plots to show the variation trends or their ratio, and also generate a bar plot to illustrate the proportions of each species.
+
+
+What I plan to do in the next week:
+- Data exploration: I think there are still lots of places need to be improved, for example because I have a lot of data, how to make the graphs clearer and does not look clutter.
+
+- Organize the structure: I could read through what I wrote in the GitHub, add content and organize the structure to make my coursework more comprehensive.
+
+
+Issues blocking my progress (state ‘None’ if there are no issues):
+- Plot line chart: I want to label time on the x-axis, but I have data measured every hours in a day, so I can’t plot it by using the datetime command because the datetime is only accurate to the day but not the hour, so I will have a duplicate value. So I was wondering how to plot time on the x-axis that is accurate to hours.
+
 
 ## References
 Use any [referencing style](https://library-guides.ucl.ac.uk/referencing-plagiarism/referencing-styles) that you are
