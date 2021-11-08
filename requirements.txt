@@ -1,4 +1,6 @@
+# Libraries used in coding
 setuptools
 pandas
 numpy
 bcrypt
+matplotlib.pyplot
