@@ -93,7 +93,7 @@ The fourth criteria mentions a constraint of CRISP-DM, which is heavy documentat
 <img width="1060" alt="persona5" src="https://user-images.githubusercontent.com/92019801/138786087-eb66eb5c-2d83-4a24-b260-8a301f0906de.png">
 
 ### Questions to be answered using the dataset
-- For region (the specified data set used in this project):
+- For the selected PM2.5 and PM10 data sets:
   1. What time of day air pollution is the most serious and the possible causes?
   3. What is the overall trend of the open air quality throughout the day?
   4. What is the overall trend of the open air quality throughout the month?
