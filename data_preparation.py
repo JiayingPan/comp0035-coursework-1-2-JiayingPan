@@ -8,12 +8,11 @@ if __name__ == '__main__':
     # 1. Print the number of rows and columns in the DataFrame
     print(df1.shape)
 
-    # 2. Print the column labels and data types. Note any columns that you don't think are needed.
+    # 2. Print the column labels and data types.
     print(df1.info(verbose=True))
 
     # 3. Drop the list of named columns `['locationId', 'city', 'local', 'unit', 'latitude', 'longitude']
     df1.drop(['locationId', 'city', 'country', 'local',  'unit', 'latitude', 'longitude'], axis=1, inplace=True)
-    print(df1.info())
 
     # 4. Find and count the number of missing values, create a dataframe with the rows that contain missing values
     print(df1.isna().sum().sum())
@@ -39,7 +38,6 @@ if __name__ == '__main__':
     print(df2.shape)
     print(df2.info(verbose=True))
     df2.drop(['locationId', 'location', 'country', 'city', 'local', 'latitude', 'longitude'], axis=1, inplace=True)
-    print(df2.info())
     print(df2.isna().sum().sum())
     df2_isna = df2[df2.isna().any(axis=1)]
     print(df2_isna)
