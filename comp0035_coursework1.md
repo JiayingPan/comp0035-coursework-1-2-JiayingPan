@@ -119,7 +119,7 @@ The fourth criteria mentions a constraint of CRISP-DM, which is heavy documentat
 [Data Exploration](data_exploration.py)
 
 ## Requirements
-All the libraries used in coding such as python pandas and matplotlib.pyplot have been included in the 'requirements.txt' file, please see the file in the repositories and download the required libraries in pip to run the code.
+All the libraries used in coding such as python pandas and matplotlib.pyplot have been included in the 'requirements.txt' file, please see the file in the repository and download the required libraries in pip to run the code.
 
 ## Weekly progress reports
 
