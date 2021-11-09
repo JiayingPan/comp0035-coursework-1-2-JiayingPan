@@ -37,10 +37,7 @@ if __name__ == '__main__':
     df['PM2.5%'] = df['PM2.5'] / df['Total']
     df['PM10%'] = df['PM10'] / df['Total']
 
-    # 7. Create the stacked bar plot of the % for PM2.5 and PM10
-    df.plot.bar(x='utc',y=['PM2.5%', 'PM10%'], stacked=True, title="PM Monthly Proportions")
-
-    # 8. Create line plots of the PM values in a certain day, and make the x-axis labels fully visible
+    # 7. Create line plots of the PM values in a certain day, and make the x-axis labels fully visible
     print(df[0:24])
     df.iloc[0:24].plot(x='utc',y=['PM2.5', 'PM10', 'Total'], ylabel="µg/m³", title="PM Daily Variation")
     plt.gcf().subplots_adjust(bottom=0.15)
@@ -49,9 +46,12 @@ if __name__ == '__main__':
     df.iloc[0:24].plot(x='utc',y='PM10', ylabel="µg/m³", title="PM10 Daily Variation")
     plt.gcf().subplots_adjust(bottom=0.15)
 
+    # 8. Create the stacked bar plot of the daily % for PM2.5 and PM10
+    df.iloc[0:24].plot.bar(x='utc',y=['PM2.5%', 'PM10%'], stacked=True, title="PM daily Proportions")
+    plt.gcf().subplots_adjust(bottom=0.5)
+
     # 9. Show all the plotting results
     plt.show()
-
 
 
 
