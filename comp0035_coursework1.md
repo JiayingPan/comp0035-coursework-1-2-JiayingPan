@@ -28,31 +28,31 @@ In order to select the appropriate project methodology, various data science pro
   
   CRISP-DM: It is a model that likely to change frequently. It provides an iterative approach that includes frequent opportunities to evaluate project progress against the original objectives to minimize the risk of discovering that the business objectives have not yet been achieved at the end of the project. This also means that project stakeholders can adjust and change objectives based on new findings. [1]
   
-  SCRUM: It recognizes that what customers want or need will always change, and this challenge is usually unpredictable. So it applies an evidence-based empirical method that accepts that problems cannot be fully understood or identified in the early stages.[2] But during each sprint, changes that would endanger the sprint goal are not allowed to make. The scrum team and the stakeholders will inspect the results and make adjustments for the next sprint.
+  SCRUM: It recognizes that what customers want or need will always change, and this challenge is usually unpredictable. So it applies an evidence-based empirical method that accepts that problems cannot be fully understood or identified in the early stages. [2] But during each sprint, changes that would endanger the sprint goal are not allowed to make. The scrum team and the stakeholders will inspect the results and make adjustments for the next sprint.
   
-  TDSP: It is a flexible methodology and may allow changes to be made. It can be implemented with other approaches such CRISP-DM and SCRUM or by definition.
+  TDSP: It is a flexible methodology and may allow changes to be made. It can be implemented with other approaches such CRISP-DM and SCRUM or by definition. [3]
 
 - Level of skill and knowledge required to use the method  (Professional requirements for users and difficulty of getting started)
   
-  CRISP-DM: It has low requirements for skills and professionalism, and can be implemented without much training, organizational role changes, or controversy. Since it starts with the business understanding, it is easy to be understanded and followed. 
+  CRISP-DM: It has low requirements for skills and professionalism, and can be implemented without much training, organizational role changes, or controversy. Since it starts with the business understanding, it is easy to be understanded and followed. [4]
   
-  SCRUM: It has high requirements for skills and professional knowledge. It engages a group of people to have all the skills and expertise to complete the work, and share or acquire these skills as needed. Its team nature is cross-functional, meaning that members have all the skills needed to complete tasks and create value in each Sprint.
+  SCRUM: It has high requirements for skills and professional knowledge. It engages a group of people to have all the skills and expertise to complete the work, and share or acquire these skills as needed. [5] Its team nature is cross-functional, meaning that members have all the skills needed to complete tasks and create value in each Sprint.
   
   TDSP: Its requirements for skills and knowledge are moderate, ranking between the first two methodologies. It is usually completed by a data science team, and set up professional roles to enrich the team definition, and defines the relevant tasks and artifacts for many of the team roles during each phase of the project life cycle.
   
 - Size of the project team (Designed for an individual work or a team project management)
   
-  CRISP-DM: It implicitly assumes that its user is a person or a small and tight team, while ignoring the teamwork required for large projects.
+  CRISP-DM: It implicitly assumes that its user is a person or a small and tight team, [4] while ignoring the teamwork required for large projects.
   
-  SCRUM: The fundamental unit of Scrum is a small team of people. The Scrum team consists of a Scrum Master, a product owner and developers, and there are no sub-teams or hierarchies in a Scrum team.
+  SCRUM: The fundamental unit of Scrum is a small team of people. [6] The Scrum team consists of a Scrum Master, a product owner and developers, and there are no sub-teams or hierarchies in a Scrum team.
   
-  TDSP: It is designed for a medium to large data science team, and the team roles include solution architect, project manager, data engineer, data scientist, application developer and project lead to best work together to help improve team collaboration and learning.
+  TDSP: It is designed for a medium to large data science team, and the team roles include solution architect, project manager, data engineer, data scientist, application developer and project lead to best work together to help improve team collaboration and learning. [7]
   
 - Timeframe of the project (Short or long timescale)
   
-  CRISP-DM: Using this methodology will take a relatively long timescale on documentating, because almost every task has a documentation step. Although such lengthy and repetitive documentation steps ensure the maturity of the process, the documentation requirements of CRISP-DM may unnecessarily slow down the team's actual delivery of increments.
+  CRISP-DM: Using this methodology will take a relatively long timescale on documentating, [4] because almost every task has a documentation step. Although such lengthy and repetitive documentation steps ensure the maturity of the process, the documentation requirements of CRISP-DM may unnecessarily slow down the team's actual delivery of increments.
   
-  SCRUM: This methodology uses Sprint as a container for all other event and the timescale of each Sprint is short. For Sprints they are fixed-length events of one month or less (about 2-4 weeks) to create consistency, and a new Sprint starts immediately after the previous Sprint ends.
+  SCRUM: This methodology uses Sprint as a container for all other event and the timescale of each Sprint is short. For Sprints they are fixed-length events of one month or less (about 2-4 weeks) to create consistency, [8] and a new Sprint starts immediately after the previous Sprint ends.
   
   TDSP: The timescle of this methodology depends on whether it is implemented with other process models or by itself. For example, for teams that use SCRUM in the development of TDSP, fixed-length sprints are challenging for many data scientists. However, for teams that can use a fixed-length sprint cadence and are looking for a comprehensive, modern, and agile approach, TDSP is a reliable choice.
   
@@ -200,8 +200,11 @@ Issues blocking my progress (state ‘None’ if there are no issues):
 
 
 ## References
-Use any [referencing style](https://library-guides.ucl.ac.uk/referencing-plagiarism/referencing-styles) that you are
-used to using in your course.
-1. https://thinkinsights.net/digital/crisp-dm/
-2. https://opus.lib.uts.edu.au/bitstream/10453/123178/2/02whole.pdf
-3. 
+1. Sridharan M, Sridharan M. Think Insights - CRISP-DM: A framework for Data Mining & Analysis [Internet]. Think Insights. 2021 [cited 9 November 2021]. Available from: https://thinkinsights.net/digital/crisp-dm/
+2. [Internet]. 2021 [cited 9 November 2021]. Available from: https://opus.lib.uts.edu.au/bitstream/10453/123178/2/02whole.pdf
+3. Team Data Science Process (TDSP) [Internet]. Data Science Process Alliance. 2021 [cited 9 November 2021]. Available from: https://www.datascience-pm.com/tdsp/
+4. CRISP-DM - Data Science Process Alliance [Internet]. Data Science Process Alliance. 2021 [cited 9 November 2021]. Available from: https://www.datascience-pm.com/crisp-dm-2/
+5. Scrum Guide | Scrum Guides [Internet]. Scrumguides.org. 2021 [cited 9 November 2021]. Available from: https://scrumguides.org/scrum-guide.html
+6. What is Scrum? [Internet]. Scrum.org. 2021 [cited 9 Novem 2021]. Available from: https://www.scrum.org/resources/what-is-scrum
+7. What is the Team Data Science Process? - Azure Architecture Center [Internet]. Docs.microsoft.com. 2021 [cited 9 November 2021]. Available from: https://docs.microsoft.com/en-us/azure/architecture/data-science-process/overview
+8. What is a Sprint in Scrum? [Internet]. Scrum.org. 2021 [cited 9 November 2021]. Available from: https://www.scrum.org/resources/what-is-a-sprint-in-scrum
