@@ -1,6 +1,6 @@
 # Coursework 2
 ## Requirements definition and analysis	
-General public:
+General public that includes both the target audience and partners of the web app (external users):
 | No. | User Stories | Acceptance Criteria |  Priority  |  Estimation  |
 | :---: | --- | --- | --- | --- |
 | 1 | As a conmmuter, I want to be notified in time when the data is updated |  |  |
@@ -20,7 +20,7 @@ General public:
 | 15 | As an air quality specialist, I want to compare the data throughout a month so that I can find the law of change. |  |  |
 | 16 | As a manager in the market department of cloth/medicine/mask company, I hope to have an advertising slot in the app to increase the exposure of the company and products. |  |  |
 
-Administration:
+Staffs for the developement and management purpose of the web app (internal users):
 | No. | User Stories | Acceptance Criteria |  Priority  |  Estimation  |
 | :---: | --- | --- | --- | --- |
 | 17 | As a developer, I want to use an internet browser as its user interface. |  |  |
