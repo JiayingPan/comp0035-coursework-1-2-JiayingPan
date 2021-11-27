@@ -9,20 +9,24 @@ General public:
 | 4 | As a commuter, I want to be able to see the maximum and minimum values of daily data so that I can make a rough assessment of the range of changes in air quality each day. |  |  |
 | 5 | As a commuter, I want to be provided with the air quality forecast in the next few hours, not limited to the data at a certain moment and before, so that I can plan a whole day’s itinerary based on the trend of change. |  |  |
 | 6 | As a conmmuter, I want to be able to run the web app on all versions of Internet Explorer and Netscape browsers so that I can click on any web page to search and use it. |  |  |
-| 7 | As a tourist, I want to be able to save the information of my habitual residence city and tourist destination, so I don’t have to spend time searching for the city every time. |  |  |
-| 8 | As a tourist, I hope to search data in various countries and use it when I am traveling abroad. |  |  |
-| 9 | As a tourist, I hope there is a ‘lift to top’ option, even if I add attention to the air quality in many places, I can still put the data of my resident place on the top and find it quickly. |  |  |
-| 10 | As an environmentalist, I hope that the content of this app can add some scrolls calling for everyone to protect the environment. |  |  |
-| 11 | As an environmentalist, I want to compare the data of different pollutants so that I can find which contributed most to the air pollution. |  |  |
-| 12 | As an air quality specialist, I want the data on the web is able to be download for analysis. |  |  |
-| 13 | As a air specialist, I hope to display the historical data that I have seen, so that it is more convenient for me to find the data that I have seen before when writing the report. |  |  |
-| 14 | As an air quality specialist, I want to compare the data throughout a month so that I can find the law of change. |  |  |
+| 7 | As a conmmuter, I want to see a different icon or background image (e.g. foggy sky, fresh breeze) depending on the air qulity. |  |  |
+| 8 | As a tourist, I want to be able to save the information of my habitual residence city and tourist destination, so I don’t have to spend time searching for the city every time. |  |  |
+| 9 | As a tourist, I hope to search data in various countries and use it when I am traveling abroad. |  |  |
+| 10 | As a tourist, I hope there is a ‘lift to top’ option, even if I add attention to the air quality in many places, I can still put the data of my resident place on the top and find it quickly. |  |  |
+| 11 | As an environmentalist, I hope that the content of this app can add some scrolls calling for everyone to protect the environment. |  |  |
+| 12 | As an environmentalist, I want to compare the data of different pollutants so that I can find which contributed most to the air pollution. |  |  |
+| 13 | As an air quality specialist, I want the data on the web is able to be download for analysis. |  |  |
+| 14 | As a air specialist, I hope to display the historical data that I have seen, so that it is more convenient for me to find the data that I have seen before when writing the report. |  |  |
+| 15 | As an air quality specialist, I want to compare the data throughout a month so that I can find the law of change. |  |  |
+| 16 | As a manager in the market department of cloth/medicine/mask company, I hope to have an advertising slot in the app to increase the exposure of the company and products. |  |  |
 
-Manager:
+Administration:
 | No. | User Stories | Acceptance Criteria |  Priority  |  Estimation  |
 | :---: | --- | --- | --- | --- |
-| 15 | As a developer, I want to be able to track user behavior on our site, so that I can improve the user experience as necessary. |  |  |
-| 16 | As a developer, I want the web design program shall be written using standard python to run on different operation system. |  |  |
+| 17 | As a developer, I want to use an internet browser as its user interface. |  |  |
+| 18 | As a developer, I want to be able to track user behavior on our site, so that I can improve the user experience as necessary. |  |  |
+| 19 | As a developer, I want the web design program shall be written using standard python to run on different operation system. |  |  |
+| 20 | As a manager, I want the web app can have a forum, so that I can get feedback from users directly and make improvements . |  |  |
 
 			
 ### Requirements identification methods
