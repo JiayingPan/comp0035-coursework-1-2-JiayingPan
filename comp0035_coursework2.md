@@ -1,10 +1,30 @@
 # Coursework 2
+## Requirements definition and analysis	
+General public:
+| No. | User Stories | Acceptance Criteria |  Priority  |  Estimation  |
+| :---: | --- | --- | --- | --- |
+| 1 | As a conmmuter, I want to be notified in time when the data is updated |  |  |
+| 2 | As a conmmuter, I want to know some elaborating of the data features and so that I can understand the data even with low level of education. |  |  |
+| 3 | As a conmmuter, I want to be provided some suggested measures based on the data, so as to reduce the thinking time I need to spend when looking at the data. |  |  |
+| 4 | As a commuter, I want to be able to see the maximum and minimum values of daily data so that I can make a rough assessment of the range of changes in air quality each day. |  |  |
+| 5 | As a commuter, I want to be provided with the air quality forecast in the next few hours, not limited to the data at a certain moment and before, so that I can plan a whole day’s itinerary based on the trend of change. |  |  |
+| 6 | As a conmmuter, I want to be able to run the web app on all versions of Internet Explorer and Netscape browsers so that I can click on any web page to search and use it. |  |  |
+| 7 | As a tourist, I want to be able to save the information of my habitual residence city and tourist destination, so I don’t have to spend time searching for the city every time. |  |  |
+| 8 | As a tourist, I hope to search data in various countries and use it when I am traveling abroad. |  |  |
+| 9 | As a tourist, I hope there is a ‘lift to top’ option, even if I add attention to the air quality in many places, I can still put the data of my resident place on the top and find it quickly. |  |  |
+| 10 | As an environmentalist, I hope that the content of this app can add some scrolls calling for everyone to protect the environment. |  |  |
+| 11 | As an environmentalist, I want to compare the data of different pollutants so that I can find which contributed most to the air pollution. |  |  |
+| 12 | As an air quality specialist, I want the data on the web is able to be download for analysis. |  |  |
+| 13 | As a air specialist, I hope to display the historical data that I have seen, so that it is more convenient for me to find the data that I have seen before when writing the report. |  |  |
+| 14 | As an air quality specialist, I want to compare the data throughout a month so that I can find the law of change. |  |  |
 
-Most students will use the same repository for coursework 2. You may use this file to present the results of that
-coursework if you wish. Alternatively you can use video or audio to provide the explanations instead of writing them.
+Manager:
+| No. | User Stories | Acceptance Criteria |  Priority  |  Estimation  |
+| :---: | --- | --- | --- | --- |
+| 15 | As a developer, I want to be able to track user behavior on our site, so that I can improve the user experience as necessary. |  |  |
+| 16 | As a developer, I want the web design program shall be written using standard python to run on different operation system. |  |  |
 
-## Requirements definition and analysis
-The term 'requirements' is used in the broader sense, user stories and/or use cases may be used.
+			
 ### Requirements identification methods
 
 ### Requirement specification method
