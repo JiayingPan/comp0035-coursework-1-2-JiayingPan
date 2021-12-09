@@ -41,11 +41,21 @@ Link to the full list of documented and prioritised requirements.
 
 ## Design
 ### Structure and flow of the interface
+Context diagram:
+![context diagram](https://user-images.githubusercontent.com/92019801/145483503-5aa3721a-3ac9-424f-9b6b-799d3bcdfdf1.png)
+
+Use case diagram:
+	
+Wireframes:
+	
 
 ### Relational database design
+ERD diagram:
+![entity relationship diagram](https://user-images.githubusercontent.com/92019801/145481613-3cf1b121-a383-4f82-b440-7e83e5b01ff0.png)
 
 ### Application structure
-
+Class diagram:
+![class diagram](https://user-images.githubusercontent.com/92019801/145482138-130f72f1-c344-46c2-ac7a-e14d051e0060.png)
 
 ## Testing
 ### Choice of unit testing library
@@ -79,7 +89,12 @@ Issues blocking my progress (state ‘None’ if there are no issues):
 - item
 
 ### Report 1
+- User stories: I have watched the PBL6 and the lecture cast and start to write the user stories based on the personas I created in the target audience step. For each user story, I have also listed acceptance criteria that the web app is expected to have.
 
+- Complete the requirements elicitation and specification: Finish the drawing of wireframes, and the architecture and design of the application.
+- Start to design the application and its interface
+	
+- brainstorming acceptance criteria: It's hard to give a comprehensive results of acceptance criteria according to the user stories.
 ### Report 2
 
 ### Report 3
