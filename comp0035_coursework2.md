@@ -89,18 +89,46 @@ Issues blocking my progress (state ‘None’ if there are no issues):
 - item
 
 ### Report 1
+What I did in the last week:
 - User stories: I have watched the PBL6 and the lecture cast and start to write the user stories based on the personas I created in the target audience step. For each user story, I have also listed acceptance criteria that the web app is expected to have.
-
+	
+What I plan to do in the next week:
 - Complete the requirements elicitation and specification: Finish the drawing of wireframes, and the architecture and design of the application.
 - Start to design the application and its interface
-	
+
+Issues blocking my progress (state ‘None’ if there are no issues):
 - brainstorming acceptance criteria: It's hard to give a comprehensive results of acceptance criteria according to the user stories.
+	
 ### Report 2
-
+What I did in the last week:
+- complete the requirements part of the previous week: I aim to supplement all the accepetance criteria required by each user story, then start designing the application interface.
+- Draw the wireframe: I started to brainstorming and design the wireframe for different use cases.
+- Identify the classes: I created a list of candidate classes, and for each class the attributes and methods are listed.
+- Identify the routes: I listed routes with controller functions required.
+	
+What I plan to do in the next week:
+- Finish the interface design part and start doing the testing: I will draw an entity relationship diagram for the air quality web app. Then try to normalise my ERD to third normal form, and update my ERD and add in the keys, data types for each attribute and any constraints.
+	
+Issues blocking my progress (state ‘None’ if there are no issues):
+- Draw the wireframes: I'm struggle with what use cases are needed in an air quality web app, and are looking at some normal weather app to make some sense. And also make very slow progress in the wireframe drawing part, because I am always thinking about how to make the interface clearer but also contain more comprehensive data at the same time.
+	
 ### Report 3
+What I did in the last week:
+- Draw an entity relationship diagram: I derived an entity relationship diagram from my class diagram, and have specified the keys and data types of each attributes.
 
+- Improve the class diagram: During the development of the entity relationship diagram, I encountered some problems and which may due to the some logical errors of the class diagram, so I also modified the class diagram when making the entity relationship diagram.
+	
+What I plan to do in the next week:
+- Testing: I will do the unit test of the classes.
+	
+Issues blocking my progress (state ‘None’ if there are no issues):
+- Organize logic: When drawing a diagram, there will be a lot of classes and attributes jumping into your mind at the same time, you need to plan them logically, and the connection between the two classes also requires logical thinking.
+	
 ### Report 4
-
+What I did in the last week:
+What I plan to do in the next week:
+Issues blocking my progress (state ‘None’ if there are no issues):
+	
 ## References
 
 Delete this instruction text before submitting:
