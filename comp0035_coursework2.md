@@ -70,24 +70,6 @@ Provide evidence that the tests have been run and the results of the tests (e.g.
 Consider using GitHub Actions (or other) to establish a continuous integration pipeline. If you do so then please provide a link to the .yml and a screenshot of the results of a workflow run.
 
 ## Weekly progress reports
-
-Copy and paste from Moodle or use the following structure. Delete this instruction text.
-
-What I did in the last week:
-
-- item
-- item
-
-What I plan to do in the next week:
-
-- item
-- item
-
-Issues blocking my progress (state ‘None’ if there are no issues):
-
-- item
-- item
-
 ### Report 1
 What I did in the last week:
 - User stories: I have watched the PBL6 and the lecture cast and start to write the user stories based on the personas I created in the target audience step. For each user story, I have also listed acceptance criteria that the web app is expected to have.
