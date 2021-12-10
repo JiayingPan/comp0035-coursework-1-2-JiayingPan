@@ -115,7 +115,6 @@ Issues blocking my progress (state ‘None’ if there are no issues):
 ### Report 3
 What I did in the last week:
 - Draw an entity relationship diagram: I derived an entity relationship diagram from my class diagram, and have specified the keys and data types of each attributes.
-
 - Improve the class diagram: During the development of the entity relationship diagram, I encountered some problems and which may due to the some logical errors of the class diagram, so I also modified the class diagram when making the entity relationship diagram.
 	
 What I plan to do in the next week:
@@ -126,8 +125,16 @@ Issues blocking my progress (state ‘None’ if there are no issues):
 	
 ### Report 4
 What I did in the last week:
+- Run unit test: I completed the work in PBL-9 and became more familiar about the unit test and what it does.
+- Create 2 unit tests for the coursework: I plan to create 2 unit tests for my coursework from the class of user, general publics and air quality dataset this week. 
+	
 What I plan to do in the next week:
+- Improve the previous content: I think I did rough work for all the previous sessions and need to make some improvements on the work content. For example, add flows to the wireframes, re-consider the class and ERD diagrams to see if they follow the logic, etc.
+- Create more unit tests: I probably will create unit tests on other classes if I have enough time.
+- Writing in GitHub: After putting everything into the cw2 repository, I will do some writing to smoothly connect all the work to complete the report.
+
 Issues blocking my progress (state ‘None’ if there are no issues):
+- Coding: I still have to spend some time to find how to conduct a good unit test and write code with high quality. Because I have received feedback on my code in coursework1, so will try to improve this aspect  in coursework2.
 	
 ## References
 
