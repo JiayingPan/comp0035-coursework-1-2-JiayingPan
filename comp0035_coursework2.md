@@ -42,7 +42,7 @@ Link to the full list of documented and prioritised requirements.
 ## Design
 ### Structure and flow of the interface
 Context diagram:
-![context diagram](https://user-images.githubusercontent.com/92019801/145483503-5aa3721a-3ac9-424f-9b6b-799d3bcdfdf1.png)
+![context diagram 下午10 18 31](https://user-images.githubusercontent.com/92019801/146464613-8fa9c136-1740-45e2-8d2b-5b136a53b74d.png)
 
 Use case diagram:
 	
@@ -51,11 +51,12 @@ Wireframes:
 
 ### Relational database design
 ERD diagram:
-![entity relationship diagram](https://user-images.githubusercontent.com/92019801/145481613-3cf1b121-a383-4f82-b440-7e83e5b01ff0.png)
+![entity relationship diagram-2](https://user-images.githubusercontent.com/92019801/146464594-2b8e485c-474f-4fac-a308-c6f7b2cbf49c.png)
 
 ### Application structure
 Class diagram:
-![class diagram](https://user-images.githubusercontent.com/92019801/145482138-130f72f1-c344-46c2-ac7a-e14d051e0060.png)
+![class diagram](https://user-images.githubusercontent.com/92019801/146464568-9bc0a398-1b29-4bc5-9402-d62118aef31c.png)
+
 
 ## Testing
 ### Choice of unit testing library
