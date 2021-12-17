@@ -45,9 +45,11 @@ Context diagram:
 ![context diagram 下午10 18 31](https://user-images.githubusercontent.com/92019801/146464613-8fa9c136-1740-45e2-8d2b-5b136a53b74d.png)
 
 Use case diagram:
-	
+![use case diagram](https://user-images.githubusercontent.com/92019801/146618657-cc16fc7e-722e-4128-aefb-3241b3de24c1.png)
+
 Wireframes:
-	
+![wireframe](https://user-images.githubusercontent.com/92019801/146618666-daba6c6f-c2ca-4d13-b7eb-d869c5ddf1fd.png)
+
 
 ### Relational database design
 ERD diagram:
