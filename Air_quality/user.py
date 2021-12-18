@@ -74,7 +74,6 @@ class User(object):
         salt = bcrypt.gensalt()
         self.hashed_password = bcrypt.hashpw(password.encode('utf-8'), salt)
         #self.hashed_password = hashlib.sha256(str.encode(password)).hexdigest()
-        #return self.hashed_password
         return password
 
 

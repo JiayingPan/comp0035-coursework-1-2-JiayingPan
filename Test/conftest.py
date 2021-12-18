@@ -8,4 +8,3 @@ def common_user():
     user_detail = User(first_name='Jiaying', last_name='Pan', email='jypan@email.com',
                        username='jiayingpan', password='123456', dob= date(year=2001, month=6, day=25))
     yield user_detail
-
