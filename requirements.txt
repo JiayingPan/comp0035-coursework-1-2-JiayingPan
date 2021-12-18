@@ -3,4 +3,4 @@ setuptools
 pandas
 numpy
 bcrypt
-matplotlib.pyplot
+matplotlib
