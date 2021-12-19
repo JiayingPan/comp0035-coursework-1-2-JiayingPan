@@ -55,7 +55,7 @@ From the table, it can be seen that the MoSCoW method is relatively simple and f
 	
 	
 ### Documented and prioritised requirements
-The requirements are documented and prioritised. After tabulating the requirements, UML use case diagram together with use case, and UML activity diagram is drawn and produced to model and understand the requirements.See full list of documented and prioritised requirements and other assistive techniques in [requirements-list](https://github.com/ucl-comp0035/coursework-1-JiayingPan/blob/4cb6356619fbc3ecfb3a3f9117552f6f42090ff9/requirements-list.md).
+The requirements are documented and prioritised. After tabulating the requirements, UML use cases is produced to use as an additional requirements analysis to provide a richer picture to show how the system meets the goals of actors. It models and deepens the understanding of requirements. See full list of documented and prioritised requirements and assistive UML techniques in [requirements-list](https://github.com/ucl-comp0035/coursework-1-JiayingPan/blob/4cb6356619fbc3ecfb3a3f9117552f6f42090ff9/requirements-list.md).
 
 ## Design
 ### Structure and flow of the interface
