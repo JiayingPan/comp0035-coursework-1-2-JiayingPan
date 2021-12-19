@@ -44,12 +44,12 @@ Due to the limited budget, time and human resources, but the high amount of requ
 Again, a table is made to compare the different prioritisation methods.
 | No. | Technique | Advantages | Disadvantages |
 | :---: | :---: | --- | --- |
-| 1 | MoSCoW | <ul><li> | <ul><li><sup>1</sup> |	
+| 1 | MoSCoW | <ul><li>Involve business stakeholders in the feature prioritization process <li>Powerful and simple way to prioritize with timeboxes <sup>10</sup> <li>Highly based on the team’s technical and business expert opinions | <ul><li>Vulnerable to the prejudice of managers, worrying that their actions will fall into "should" or "could" |	
 | 2 | Story mapping | <ul><li> | <ul><li><sup>1</sup> |
 | 3 | 100 points | <ul><li> | <ul><li><sup>1</sup> |
 | 4 | Forced pair ranking | <ul><li> | <ul><li><sup>1</sup> |
 | 5 | Priority poker | <ul><li> | <ul><li><sup>1</sup> |
-| 6 | Kano model | <ul><li> | <ul><li><sup>1</sup> |
+| 6 | Kano model | <ul><li>Fully customer-centric, it allows immediate identification of product strengths and weaknesses through its features <li>Customize products according to the needs of current and target users, and predict features and audiences based on expectations | <ul><li>Subject to inherent limitations caused by survey delivery <sup>15</sup> <li>Only pay attention to the opinions of customers, ignore the understanding of the product and personal prejudices <li>Easy to delay the time-to-market due to survey, data collection and processing time |
 	
 ### Documented and prioritised requirements
 Link to the full list of documented and prioritised requirements.
@@ -170,7 +170,13 @@ Issues blocking my progress (state ‘None’ if there are no issues):
 7. https://babokpage.wordpress.com/techniques/brainstorming/
 8. https://babokpage.wordpress.com/techniques/prototyping/
 9. https://babokpage.wordpress.com/techniques/document-analysis/
-
+10. https://airfocus.com/guides/prioritization/7-most-popular-prioritization-frameworks/moscow-method/
+11.
+12.
+13.
+14.
+15. https://airfocus.com/guides/prioritization/7-most-popular-prioritization-frameworks/kano-model/
+	
 Delete this instruction text before submitting:
 
 - Include references to any templates you have used.
