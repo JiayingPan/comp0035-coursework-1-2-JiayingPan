@@ -45,11 +45,14 @@ Again, a table is made to compare the different prioritisation methods.
 | No. | Technique | Advantages | Disadvantages |
 | :---: | :---: | --- | --- |
 | 1 | MoSCoW | <ul><li>Involve business stakeholders in the feature prioritization process <li>Powerful and simple way to prioritize with timeboxes <sup>10</sup> <li>Highly based on the team’s technical and business expert opinions | <ul><li>Vulnerable to the prejudice of managers, worrying that their actions will fall into "should" or "could" |	
-| 2 | Story mapping | <ul><li> | <ul><li><sup>1</sup> |
-| 3 | 100 points | <ul><li> | <ul><li><sup>1</sup> |
-| 4 | Forced pair ranking | <ul><li> | <ul><li><sup>1</sup> |
-| 5 | Priority poker | <ul><li> | <ul><li><sup>1</sup> |
+| 2 | Story mapping | <ul><li>Help the team plan, prioritize and group its tasks into iterations, allowing stakeholders to solve the most critical tasks first <li>Faster delivery, faster feedback, and a deeper insights into product features that best serve customers <sup>11</sup> | <ul><li>Failure to empathize and understand the real user experience may result in wasted effort in story mapping exercises <li>Time consuming. Story mapping is not a quick exercise and requires a lot of physical space |
+| 3 | 100 points | <ul><li>Stakeholders use a limited number of "votes" to make more accurate judgments on the business value of needs, and can adjust and fine-tune them according to taste <li>Evaluation with numbers is particularly effective for a manageable number of requirements and stakeholders <sup>12</sup> | <ul><li>Not suitable if there are too many requirements to prioritize |
+| 4 | Forced pair ranking | <ul><li>In the absence of a means for measuring project value, most managers use forced ranking by default | <ul><li>Requires difficult decisions and is time consuming. In the absence of a more formal approach, bias, mental errors, and politics often play a major role in selection <sup>13</sup> |
+| 5 | Priority poker | <ul><li>Help facilitate the prioritization process. It highlights areas of disagreement and helps to explore "why" priority for a project, not just "what it is" <li>Very flexible. The different priority levels can be changed and the final priority can be calculated according to desires <sup>14</sup> | <ul><li>Reaching consensus may give the team a false sense of self-confidence. They may still lack important information, and their estimates may still be biased <li>The dominant player in the group may overly influence other participants |
 | 6 | Kano model | <ul><li>Fully customer-centric, it allows immediate identification of product strengths and weaknesses through its features <li>Customize products according to the needs of current and target users, and predict features and audiences based on expectations | <ul><li>Subject to inherent limitations caused by survey delivery <sup>15</sup> <li>Only pay attention to the opinions of customers, ignore the understanding of the product and personal prejudices <li>Easy to delay the time-to-market due to survey, data collection and processing time |
+
+From the table, it can be seen that the MoSCoW method is relatively simple and fast to complete among all methods. It can prioritize requirements more efficiently in this relatively tight design time, and its shortcomings are reasonable and not fatal. Therefore, MoSCoW is used to prioritize the requirements in this case.
+	
 	
 ### Documented and prioritised requirements
 Link to the full list of documented and prioritised requirements.
@@ -171,10 +174,10 @@ Issues blocking my progress (state ‘None’ if there are no issues):
 8. https://babokpage.wordpress.com/techniques/prototyping/
 9. https://babokpage.wordpress.com/techniques/document-analysis/
 10. https://airfocus.com/guides/prioritization/7-most-popular-prioritization-frameworks/moscow-method/
-11.
-12.
-13.
-14.
+11. https://www.simplilearn.com/story-mapping-article
+12. https://medium.com/devlix-blog/prioritization-100-dollar-method-and-scale-9c3ccfcfe9f1
+13. https://www.prioritysystem.com/reasons2e.html
+14. http://www.uxforthemasses.com/priority-poker/
 15. https://airfocus.com/guides/prioritization/7-most-popular-prioritization-frameworks/kano-model/
 	
 Delete this instruction text before submitting:
