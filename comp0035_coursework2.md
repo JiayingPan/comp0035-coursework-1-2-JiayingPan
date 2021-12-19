@@ -1,7 +1,25 @@
 # Coursework 2
 ## Requirements definition and analysis	
- 
+A context diagram has been generated for the client Open Air Qulity to determine the scope of the app.
+![context diagram](https://user-images.githubusercontent.com/92019801/146681218-56eeccc6-083a-4660-89d5-8bc7477f9ec2.png)
+The context diagram shows the interaction between the open air quality dashboard system and three actors of dashboard users, dashboard administrators and air quality data repository. Their relationships are listed as follows:
+
+   - #### Dashboard users - OAQ dashboard
+     
+     Users will provide their registration details to the dashborad system, while the system will provide the air quality information to the users.
+
+   - #### Dashboard administrators - OAQ dashboard
+   
+     Since the web app is still in the initial stage, we currently only have a prepared air quality   dataset for London Bloomsbury, so there is only one available location to search. However, as the app matures, its information will be more comprehensive and there will definetely have more datasets in different regions, so the administrator can provide the system with the location details of the region to which the dataset belongs when a new dataset is added for search. Meanwhile, the system will provide reports to the administrators to view the operation of the app, including but not limited to the number of registrations, user comments, and the number of active users, etc.
+
+  - #### Air quality data repository - OAQ dahboard
+    All the datasets will be stored in the airquality repository, so it will provide the system with air quality index data for PM2.5 and PM10.
+
+
 ### Requirements identification methods
+The elicitation process needs comprehensive thinking, researching and discovering the requirements of a system from stakeholders such as users and customers, and ensuring that the generated requirements are clear, understandable, useful and relevant.
+
+A table is made to compare the nine elicitation techniques identified by BABOK.
 
 ### Requirement specification method
 
@@ -39,9 +57,6 @@ Staffs for the developement and management purpose of the web app (internal user
 
 ## Design
 ### Structure and flow of the interface
-Context diagram:
-![context diagram 下午10 18 31](https://user-images.githubusercontent.com/92019801/146464613-8fa9c136-1740-45e2-8d2b-5b136a53b74d.png)
-
 Use case diagram:
 ![use case diagram](https://user-images.githubusercontent.com/92019801/146618657-cc16fc7e-722e-4128-aefb-3241b3de24c1.png)
 
