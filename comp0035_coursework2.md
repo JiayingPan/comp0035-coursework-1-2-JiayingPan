@@ -1,5 +1,14 @@
 # Coursework 2
 ## Requirements definition and analysis	
+ 
+### Requirements identification methods
+
+### Requirement specification method
+
+### Prioritisation method
+
+### Documented and prioritised requirements
+Link to the full list of documented and prioritised requirements.
 General public that consists of the target audience of the web app (external users):
 | No. | Persona | User Stories | Acceptance Criteria |  Priority  |
 | :---: | :---: | --- | --- | :---: |
@@ -26,18 +35,7 @@ Staffs for the developement and management purpose of the web app (internal user
 | 17 | Developer | As a developer, I want to use an internet browser as its user interface. | / | Must have |  
 | 18 | Developer | As a developer, I want to be able to track user behavior on our site, so that I can improve the user experience as necessary. | <ul><li>The system uses traditional web analytical tool to track user amount, engagement time and revenue | Could have |  
 | 19 | Developer | As a developer, I want the web design program shall be written using standard python to run on different operation system. | / | Must have |
-| 20 | Manager | As a manager, I want the web app can have a forum, so that I can get feedback from users directly and make improvements. | <ul><li>The link of the forum displays at the corner of the main interface <li>Forum invitation email sents to every account monthly | Won't have for now |  
-
-			
-### Requirements identification methods
-
-### Requirement specification method
-
-### Prioritisation method
-
-### Documented and prioritised requirements
-Link to the full list of documented and prioritised requirements.
-
+| 20 | Manager | As a manager, I want the web app can have a forum, so that I can get feedback from users directly and make improvements. | <ul><li>The link of the forum displays at the corner of the main interface <li>Forum invitation email sents to every account monthly | Won't have for now | 
 
 ## Design
 ### Structure and flow of the interface
