@@ -36,7 +36,7 @@ A table is made to compare the nine elicitation techniques identified by BABOK.
 According to the limitation mentioned in the brief that anyone outside of the project cannot be involved for requirements gathering as that involving human participants in a project, and online surveys required prior ethical approval. As a result, the whole elicitation process was based on the brainstroming method, supplemented by an interview, where another student in this course was played a role of a user in the app to break the limitations of personal thinking. The brainstroming method and the interview method allows to elicit ideas in a short period time which is suitable
 
 ### Requirement specification method
-In the coursework 1, CRISP-DM is selected as the process models (see cw1 with specific justification of models in []). CRISP-DM belongs to data science models, therefore, user stories for data science -- analytic user story, is used to specify the requirements.
+In the coursework 1, CRISP-DM is selected as the process models (see cw1 with specific justification of models in [comp0035_coursework1.md]). CRISP-DM belongs to data science models, therefore, user stories for data science -- analytic user story, is used to specify the requirements.
 	
 ### Prioritisation method
 
