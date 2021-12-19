@@ -21,7 +21,18 @@ The context diagram shows the interaction between the open air quality dashboard
 The elicitation process needs comprehensive thinking, researching and discovering the requirements of a system from stakeholders such as users and customers, and ensuring that the generated requirements are clear, understandable, useful and relevant.
 
 A table is made to compare the nine elicitation techniques identified by BABOK.
-
+| No. | Technique | Advantages | Disadvantages |  Is used in the project  |
+| :---: | :---: | --- | --- | :---: |
+| 1 | Interview | <ul><li>Ability to elicit ideas in a short period of time <li>Non-judgmental environment| <ul><li>Depends on participants’ creativity and willingness <li>Limited to the interpersonal characteristics of the participants <sup>1</sup> | ✅ | 
+| 2 | Workshop | <ul><li>Provide stakeholders with a collaborative environment for decision-making and mutual understanding <li>Immediate feedback and able to reach consensus | <ul><li>Effect highly dependent on the skills of the host and the knowledge of the participants <sup>2</sup> <li>The availability of stakeholders and many participants may slow down the process | ❌ | 
+| 3 | Survey/ Questionnaire | <ul><li>Questions are effective for statistical analysis and bring the insights and opinions <li>Time cost is low and can generate a large number of responses | <ul><li>Open questions require a high degree of analysis <li>Results may be not biased <sup>3</sup>| ❌ | 
+| 4 | Interface analysis | <ul><li>High-level view of interoperability <li>Plan impact on delivery date, more accurate and potential time savings and cost <sup>4</sup> | <ul><li>Does not provide insights about other aspects of the solution <li>Does not evaluate internal components | ❌ | 
+| 5 | Focus group | <ul><li>Save time and cost by obtaining group data in a single meeting to understand attitudes, experiences and desires <sup>5</sup> | <ul><li>Distrust on sensitive topics, difficulty in arranging groups, and helpless ideas for new products | ❌ | 
+| 6 | Observation or ethnography | <ul><li>Practical and realistic business vision <li>Details of informal communication and the current form of work | <ul><li>Only applicable to existing processes and will consume a lot of time <sup>6</sup> <li>May not work when the current process is too complicated or involves other difficult-to-observe work | ❌ | 
+| 7 | Brainstorming | <ul><li>Ability to elicit ideas in a short period of time <li>Non-judgmental environment | <ul><li>Depends on participants’ creativity and willingness <li>Limited to the interpersonal characteristics of the participants <sup>7</sup> | ✅ | 
+| 8 | Prototyping | <ul><li>User interaction and early feedback <li>Demonstrate feasibility or technology gap | <ul><li>Complex cases take a long time, require technical knowledge, and create unrealistic expectations among users <li>May look like a functional system, restricting the same solutions and development concepts as the prototype <sup>8</sup> | ❌ | 
+| 9 | Analysing documentation | <ul><li>Analyze certain part of something, use existing materials, and check requirements with different techniques | <ul><li>Limited to "as is", outdated documents, time-consuming and cumbersome <sup>9</sup> | ❌ | 
+	
 ### Requirement specification method
 
 ### Prioritisation method
@@ -136,6 +147,15 @@ Issues blocking my progress (state ‘None’ if there are no issues):
 - Coding: I still have to spend some time to find how to conduct a good unit test and write code with high quality. Because I have received feedback on my code in coursework1, so will try to improve this aspect  in coursework2.
 	
 ## References
+1. https://babokpage.wordpress.com/techniques/brainstorming/
+2. https://babokpage.wordpress.com/techniques/requirements-workshops/
+3. https://babokpage.wordpress.com/techniques/surveyquestionnaire/
+4. https://babokpage.wordpress.com/techniques/interface-analysis/
+5. https://babokpage.wordpress.com/techniques/focus-groups/
+6. https://babokpage.wordpress.com/techniques/observation/
+7. https://babokpage.wordpress.com/techniques/brainstorming/
+8. https://babokpage.wordpress.com/techniques/prototyping/
+9. https://babokpage.wordpress.com/techniques/document-analysis/
 
 Delete this instruction text before submitting:
 
