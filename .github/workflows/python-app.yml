@@ -33,4 +33,4 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest and cov
       run: |
-        python -m pytest --verbose --cov-report term-missing --cov=Air_quality
+        python3 -m pytest --verbose --cov-report term-missing --cov=Air_quality
