@@ -1,6 +1,7 @@
 from datetime import date
 import bcrypt
 
+
 class User(object):
     """A user who will use the dashboard and web application.
     Args:
