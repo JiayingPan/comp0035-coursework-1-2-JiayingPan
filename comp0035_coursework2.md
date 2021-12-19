@@ -39,7 +39,18 @@ According to the limitation mentioned in the brief that anyone outside of the pr
 In the first coursework, CRISP-DM is selected as the process models (see detailed justification of models in [coursework1 file](https://github.com/ucl-comp0035/coursework-1-JiayingPan/blob/d279b95d5afd229c5b467d1fdb110bf303a6be7b/comp0035_coursework1.md)). Since CRISP-DM belongs to data science models, therefore, user stories for data science -- analytic user story is used to specify the requirements. Acceptance criteria have been added to the user stoory to clarify the definition and capture the non-functional needs.
 	
 ### Prioritisation method
+Due to the limited budget, time and human resources, but the high amount of requirements, not every requirement has a chance to be implemented. Therefore, all requirements will be prioritised to determine the most important and necessary requirements for this system.
 
+Again, a table is made to compare the different prioritisation methods.
+| No. | Technique | Advantages | Disadvantages |
+| :---: | :---: | --- | --- |
+| 1 | MoSCoW | <ul><li> | <ul><li><sup>1</sup> |	
+| 2 | Story mapping | <ul><li> | <ul><li><sup>1</sup> |
+| 3 | 100 points | <ul><li> | <ul><li><sup>1</sup> |
+| 4 | Forced pair ranking | <ul><li> | <ul><li><sup>1</sup> |
+| 5 | Priority poker | <ul><li> | <ul><li><sup>1</sup> |
+| 6 | Kano model | <ul><li> | <ul><li><sup>1</sup> |
+	
 ### Documented and prioritised requirements
 Link to the full list of documented and prioritised requirements.
 General public that consists of the target audience of the web app (external users):
