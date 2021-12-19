@@ -2,6 +2,7 @@
 ## Requirements definition and analysis	
 A context diagram has been generated for the client Open Air Qulity to determine the scope of the app.
 ![context diagram](https://user-images.githubusercontent.com/92019801/146681218-56eeccc6-083a-4660-89d5-8bc7477f9ec2.png)
+
 The context diagram shows the interaction between the open air quality dashboard system and three actors of dashboard users, dashboard administrators and air quality data repository. Their relationships are listed as follows:
 
    - #### Dashboard users - OAQ dashboard
