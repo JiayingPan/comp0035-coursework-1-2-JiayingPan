@@ -62,7 +62,7 @@ The requirements are documented and prioritised. After tabulating the requiremen
 According to the results of the requirements in the previous part, wireframes are drawn to illustrate the interface and basic functions of this app. Considering the target users mainly include commuters, tourists, environmentalists and air quality specialists, most of them may open the app on the way to work or at any time to check the air condition. Therefore, this app is more suitable to design for mobile phones due to the portability and universality of mobile phones compared to desktops. A similar application is the weather app that is commonly used on every mobile phone. 
 
 #### Wireframes:
-![wireframe](https://user-images.githubusercontent.com/92019801/146700518-9671d186-2fcb-4243-9f76-5dcd91d5e2b6.png)
+![wireframe](https://user-images.githubusercontent.com/92019801/146794906-90b1f1b9-54c5-4fd8-896a-eb3bcb51f375.png)
 	
 In the graph above, the red lines represent the relationships and demonstrate the flow of wireframes. The round head of the line indicates the button that triggers the next wireframe display, and the arrow of the line indicates the destination. For example, if click the sign up button on the Login page, it will direct users to the registration page.
 
