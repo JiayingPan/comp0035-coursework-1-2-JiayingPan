@@ -60,7 +60,7 @@ The requirements are documented and prioritised. After tabulating the requiremen
 ## Design
 ### Structure and flow of the interface
 Wireframes:
-![wireframe](https://user-images.githubusercontent.com/92019801/146618666-daba6c6f-c2ca-4d13-b7eb-d869c5ddf1fd.png)
+![wireframe](https://user-images.githubusercontent.com/92019801/146695785-8219da02-be95-4b41-b0de-2f0559a0069d.png)
 
 
 ### Relational database design
