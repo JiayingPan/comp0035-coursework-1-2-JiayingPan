@@ -1,54 +1,70 @@
 # Coursework 2
 ## Requirements definition and analysis	
-General public that consists of the target audience of the web app (external users):
-| No. | Persona | User Stories | Acceptance Criteria |  Priority  |
-| :---: | :---: | --- | --- | :---: |
-| 1 | Commutor | As a website user, I want to be notified in time when the data is updated | <ul><li>The system sets whether to prompt the option to display the latest data in the notification bar of the phone | Could have | 
-| 2 | Commutor | As a website user, I want search functionality to be available on all pages so that I can search for data using keywords. | <ul><li>The search box accepts alphanumeric values <li>Search results show 10 items per page <li>The system responds to all search requests within 2 seconds after receiving the request |  Should have |
-| 3 | Commutor | As a website user, I want to see the air quality change throughout the day. | <ul><li>The system displays the daily air pollutants value charts on the main interface of the app | Must have | 
-| 4 | Commutor | As a website user, I want to be provided some suggested measures based on the data, so as to reduce the thinking time I need to spend when looking at the data. | <ul><li>The algorithm uses boolean functions to match the data to diffenrent protective measures based on amount of pollutants (e.g:when PM2.5>35μg/m3, print wear a mask)  <li>The system displays the recommendations under the charts | Could have |  
-| 5 | Commutor | As a website user, I want to be able to see the maximum and minimum values of daily data so that I can make a rough assessment of the range of changes in air quality each day. | <ul><li>The algorithm uses max() and min() to find the extreme values <li>The system displays the extreme values under the charts | Won't have for now |  
-| 6 | Commutor | As a website user, I want to be provided with the air quality forecast in the next few hours, not limited to the data at a certain moment and before, so that I can plan a whole day’s itinerary based on the trend of change. | <ul><li>The algorithm uses numpy.polyfit to predict the future air quality values <li>The system displays the link of the prediction graphs under the charts | Won't have for now |  
-| 7 | Commutor | As a website user, I want to be able to run the web app on all versions of Internet Explorer and Netscape browsers so that I can click on any web page to search and use it. | <ul><li>The system uses mobile/desktop browser simulators to test the access of each browser <li>The system sets up on-premise device labs for testing <li>The system uses a cloud-based platform to perform cross-browser testing on browsers installed on real devices | Must have |  
-| 8 | Commutor | As a website user, I want to see a different icon or background image (e.g. foggy sky, fresh breeze) depending on the air qulity. | <ul><li>The system has a background image library <li>The algorithm uses boolean functions to match the data to diffenrent background based on amount of pollutants (e.g:when PM2.5>35μg/m3, switch to a foggy sky background | Won't have for now |  
-| 9 | Commutor | As a website user, I want to be able to save the information of my habitual residence city and other interested locations, so I don’t have to spend time searching for the city every time. | <ul><li>Each user has an own account <li>Each location has an ‘Add’ option <li>Each account has a saved list of added locations <li>The list accepts alphanumeric values <li>The list shows a maximum of 10 locations per page | Could have |  
-| 10 | Commutor | As a website user, I hope there is a ‘lift to top’ option, even if I add attention to the air quality in many places, I can still put the data of my resident place on the top and find it quickly. | <ul><li>The algorithm uses a list comprehension to reorder the location list | Could have |  
-| 11 | Commutor | As a website user, I hope there is a chat feature so I can communicate and discuss with other users. | <ul><li>The chat box displays under the visualisation charts <li>Sent email if any post message is replied by other users | Could have |  
-| 12 | Environmentalist | As a website user, I hope that the content of this app can add some scrolls calling for everyone to protect the environment. | <ul><li>The system has a slogan library <li>The algorithm uses random.choice() to randomly select a slogan from the library <li>The slogan displays at the top of the app | Won't have for now |  
-| 13 | Environmentalist | As a website user, I want to see the data of different pollutants so that I can find which contributed most to the air pollution. | <ul><li>The system displays the toggle option of the air pollutants ratio graph next to the pollutants value charts | Must have |  
-| 14 | Air quality specialist | As a website user, I want the data on the web is able to be download for analysis. | <ul><li>The users are accessible to all data <li>Data set accepts chronological values <li>Data results displays 10 datasets per page <li>System responds to all data sets requests within 2 seconds of receiving the request | Could have |  
-| 15 | Air quality specialist | As a website user, I hope to display the historical data that I have seen, so that it is more convenient for me to find the data that I have seen before when writing the report. | <ul><li>Each clicked dataset name is saved in a list <li>The list removes duplicate dataset names <li>The list accepts chronological values <li>The list shows a maximum of 10 datasets per page | Won't have for now |  
-| 16 | Air quality specialist | As a website user, I want to compare the data throughout a month so that I can find the law of change. | <ul><li>The system displays the link of the monthly air pollutants value charts at the bottom of the daily charts | Should have |  
+A context diagram has been generated for the client Open Air Qulity to determine the scope of the app.
+![context diagram](https://user-images.githubusercontent.com/92019801/146697272-c8f4fc21-55ec-4581-ad45-2e631468b49a.png)
 
-Staffs for the developement and management purpose of the web app (internal users):
-| No. | Persona | User Stories | Acceptance Criteria |  Priority  | 
-| :---: | :---: |--- | --- | :---: |
-| 17 | Developer | As a developer, I want to use an internet browser as its user interface. | / | Must have |  
-| 18 | Developer | As a developer, I want to be able to track user behavior on our site, so that I can improve the user experience as necessary. | <ul><li>The system uses traditional web analytical tool to track user amount, engagement time and revenue | Could have |  
-| 19 | Developer | As a developer, I want the web design program shall be written using standard python to run on different operation system. | / | Must have |
-| 20 | Manager | As a manager, I want the web app can have a forum, so that I can get feedback from users directly and make improvements. | <ul><li>The link of the forum displays at the corner of the main interface <li>Forum invitation email sents to every account monthly | Won't have for now |  
+The context diagram shows the interaction between the open air quality app system and three actors of web app users, web app administrators and air quality data repository. Their relationships are listed as follows:
 
-			
+   - #### Web app users - OAQ app
+     
+     Users will provide their registration details to the web app system, while the system will provide the air quality information to the users.
+
+   - #### Web app administrators - OAQ app
+   
+     Since the web app is still in the initial stage, we currently only have a prepared air quality dataset for London Bloomsbury, so there is only one available location to search. However, as the app matures, its information will be more comprehensive and there will definetely have more datasets in different regions, so the administrator can provide the system with the location details of the region to which the dataset belongs when a new dataset is added for search. Meanwhile, the system will provide reports to the administrators to view the operation of the app, including but not limited to the number of registrations, user comments, and the number of active users, etc.
+
+  - #### Air quality data repository - OAQ app
+    All the datasets will be stored in the airquality repository, so it will provide the system with air quality index data for PM2.5 and PM10.
+
+
 ### Requirements identification methods
+The elicitation process needs comprehensive thinking, researching and discovering the requirements of a system from stakeholders such as users and customers, and ensuring that the generated requirements are clear, understandable, useful and relevant.
+
+A table is made to compare the nine elicitation techniques identified by BABOK.
+| No. | Technique | Advantages | Disadvantages |  Is used in the project  |
+| :---: | :---: | --- | --- | :---: |
+| 1 | Interview | <ul><li>Ability to elicit ideas in a short period of time <li>Non-judgmental environment| <ul><li>Depends on participants’ creativity and willingness <li>Limited to the interpersonal characteristics of the participants <sup>1</sup> | ✅ | 
+| 2 | Workshop | <ul><li>Provide stakeholders with a collaborative environment for decision-making and mutual understanding <li>Immediate feedback and able to reach consensus | <ul><li>Effect highly dependent on the skills of the host and the knowledge of the participants <sup>2</sup> <li>The availability of stakeholders and many participants may slow down the process | ❌ | 
+| 3 | Survey/ Questionnaire | <ul><li>Questions are effective for statistical analysis and bring the insights and opinions <li>Time cost is low and can generate a large number of responses | <ul><li>Open questions require a high degree of analysis <li>Results may be not biased <sup>3</sup>| ❌ | 
+| 4 | Interface analysis | <ul><li>High-level view of interoperability <li>Plan impact on delivery date, more accurate and potential time savings and cost <sup>4</sup> | <ul><li>Does not provide insights about other aspects of the solution <li>Does not evaluate internal components | ❌ | 
+| 5 | Focus group | <ul><li>Save time and cost by obtaining group data in a single meeting to understand attitudes, experiences and desires <sup>5</sup> | <ul><li>Distrust on sensitive topics, difficulty in arranging groups, and helpless ideas for new products | ❌ | 
+| 6 | Observation or ethnography | <ul><li>Practical and realistic business vision <li>Details of informal communication and the current form of work | <ul><li>Only applicable to existing processes and will consume a lot of time <sup>6</sup> <li>May not work when the current process is too complicated or involves other difficult-to-observe work | ❌ | 
+| 7 | Brainstorming | <ul><li>Ability to elicit ideas in a short period of time <li>Non-judgmental environment | <ul><li>Depends on participants’ creativity and willingness <li>Limited to the interpersonal characteristics of the participants <sup>7</sup> | ✅ | 
+| 8 | Prototyping | <ul><li>User interaction and early feedback <li>Demonstrate feasibility or technology gap | <ul><li>Complex cases take a long time, require technical knowledge, and create unrealistic expectations among users <li>May look like a functional system, restricting the same solutions and development concepts as the prototype <sup>8</sup> | ❌ | 
+| 9 | Analysing documentation | <ul><li>Analyze certain part of something, use existing materials, and check requirements with different techniques | <ul><li>Limited to "as is", outdated documents, time-consuming and cumbersome <sup>9</sup> | ❌ | 
+
+According to the limitation mentioned in the brief that anyone outside of the project cannot be involved for requirements gathering as that involving human participants in a project, and online surveys required prior ethical approval. As a result, the whole elicitation process was based on the brainstroming method, supplemented by an interview, where another student in this course was played a role of a user in the app to break the limitations of personal thinking. The brainstroming method and the interview method allows to elicit ideas in a short period time which is suitable
 
 ### Requirement specification method
-
+In the first coursework, CRISP-DM is selected as the process models (see detailed justification of models in [coursework1 file](comp0035_coursework1.md)). Since CRISP-DM belongs to data science models, therefore, user stories for data science -- analytic user story is used to specify the requirements. Acceptance criteria have been added to the user stoory to clarify the definition and capture the non-functional needs.
+	
 ### Prioritisation method
+Due to the limited budget, time and human resources, but the high amount of requirements, not every requirement has a chance to be implemented. Therefore, all requirements will be prioritised to determine the most important and necessary requirements for this system.
 
+Again, a table is made to compare the different prioritisation methods.
+| No. | Technique | Advantages | Disadvantages |
+| :---: | :---: | --- | --- |
+| 1 | MoSCoW | <ul><li>Involve business stakeholders in the feature prioritization process <li>Powerful and simple way to prioritize with timeboxes <sup>10</sup> <li>Highly based on the team’s technical and business expert opinions | <ul><li>Vulnerable to the prejudice of managers, worrying that their actions will fall into "should" or "could" |	
+| 2 | Story mapping | <ul><li>Help the team plan, prioritize and group its tasks into iterations, allowing stakeholders to solve the most critical tasks first <li>Faster delivery, faster feedback, and a deeper insights into product features that best serve customers <sup>11</sup> | <ul><li>Failure to empathize and understand the real user experience may result in wasted effort in story mapping exercises <li>Time consuming. Story mapping is not a quick exercise and requires a lot of physical space |
+| 3 | 100 points | <ul><li>Stakeholders use a limited number of "votes" to make more accurate judgments on the business value of needs, and can adjust and fine-tune them according to taste <li>Evaluation with numbers is particularly effective for a manageable number of requirements and stakeholders <sup>12</sup> | <ul><li>Not suitable if there are too many requirements to prioritize |
+| 4 | Forced pair ranking | <ul><li>In the absence of a means for measuring project value, most managers use forced ranking by default | <ul><li>Requires difficult decisions and is time consuming. In the absence of a more formal approach, bias, mental errors, and politics often play a major role in selection <sup>13</sup> |
+| 5 | Priority poker | <ul><li>Help facilitate the prioritization process. It highlights areas of disagreement and helps to explore "why" priority for a project, not just "what it is" <li>Very flexible. The different priority levels can be changed and the final priority can be calculated according to desires <sup>14</sup> | <ul><li>Reaching consensus may give the team a false sense of self-confidence. They may still lack important information, and their estimates may still be biased <li>The dominant player in the group may overly influence other participants |
+| 6 | Kano model | <ul><li>Fully customer-centric, it allows immediate identification of product strengths and weaknesses through its features <li>Customize products according to the needs of current and target users, and predict features and audiences based on expectations | <ul><li>Subject to inherent limitations caused by survey delivery <sup>15</sup> <li>Only pay attention to the opinions of customers, ignore the understanding of the product and personal prejudices <li>Easy to delay the time-to-market due to survey, data collection and processing time |
+
+From the table, it can be seen that the MoSCoW method is relatively simple and fast to complete among all methods. It can prioritize requirements more efficiently in this relatively tight design time, and its shortcomings are reasonable and not fatal. Therefore, MoSCoW is used to prioritize the requirements in this case.
+	
+	
 ### Documented and prioritised requirements
-Link to the full list of documented and prioritised requirements.
-
+The requirements are documented and prioritised. After tabulating the requirements, UML use cases is produced to use as an additional requirements analysis to provide a richer picture to show how the system meets the goals of actors. It models and deepens the understanding of requirements. See full list of documented and prioritised requirements and assistive UML techniques in [requirements-list](requirements-list.md).
 
 ## Design
 ### Structure and flow of the interface
-Context diagram:
-![context diagram 下午10 18 31](https://user-images.githubusercontent.com/92019801/146464613-8fa9c136-1740-45e2-8d2b-5b136a53b74d.png)
+According to the results of the requirements in the previous part, wireframes are drawn to illustrate the interface and basic functions of this app. Considering the target users mainly include commuters, tourists, environmentalists and air quality specialists, most of them may open the app on the way to work or at any time to check the air condition. Therefore, this app is more suitable to design for mobile phones due to the portability and universality of mobile phones compared to desktops. A similar application is the weather app that is commonly used on every mobile phone. 
 
-Use case diagram:
-![use case diagram](https://user-images.githubusercontent.com/92019801/146618657-cc16fc7e-722e-4128-aefb-3241b3de24c1.png)
-
-Wireframes:
-![wireframe](https://user-images.githubusercontent.com/92019801/146618666-daba6c6f-c2ca-4d13-b7eb-d869c5ddf1fd.png)
+#### Wireframes:
+![wireframe](https://user-images.githubusercontent.com/92019801/146700518-9671d186-2fcb-4243-9f76-5dcd91d5e2b6.png)
+	
+In the graph above, the red lines represent the relationships and demonstrate the flow of wireframes. The round head of the line indicates the button that triggers the next wireframe display, and the arrow of the line indicates the destination. For example, if click the sign up button on the Login page, it will direct users to the registration page.
 
 
 ### Relational database design
@@ -122,7 +138,22 @@ Issues blocking my progress (state ‘None’ if there are no issues):
 - Coding: I still have to spend some time to find how to conduct a good unit test and write code with high quality. Because I have received feedback on my code in coursework1, so will try to improve this aspect  in coursework2.
 	
 ## References
-
+1. https://babokpage.wordpress.com/techniques/brainstorming/
+2. https://babokpage.wordpress.com/techniques/requirements-workshops/
+3. https://babokpage.wordpress.com/techniques/surveyquestionnaire/
+4. https://babokpage.wordpress.com/techniques/interface-analysis/
+5. https://babokpage.wordpress.com/techniques/focus-groups/
+6. https://babokpage.wordpress.com/techniques/observation/
+7. https://babokpage.wordpress.com/techniques/brainstorming/
+8. https://babokpage.wordpress.com/techniques/prototyping/
+9. https://babokpage.wordpress.com/techniques/document-analysis/
+10. https://airfocus.com/guides/prioritization/7-most-popular-prioritization-frameworks/moscow-method/
+11. https://www.simplilearn.com/story-mapping-article
+12. https://medium.com/devlix-blog/prioritization-100-dollar-method-and-scale-9c3ccfcfe9f1
+13. https://www.prioritysystem.com/reasons2e.html
+14. http://www.uxforthemasses.com/priority-poker/
+15. https://airfocus.com/guides/prioritization/7-most-popular-prioritization-frameworks/kano-model/
+	
 Delete this instruction text before submitting:
 
 - Include references to any templates you have used.
