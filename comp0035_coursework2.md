@@ -1,19 +1,19 @@
 # Coursework 2
 ## Requirements definition and analysis	
 A context diagram has been generated for the client Open Air Qulity to determine the scope of the app.
-![context diagram](https://user-images.githubusercontent.com/92019801/146681218-56eeccc6-083a-4660-89d5-8bc7477f9ec2.png)
+![context diagram](https://user-images.githubusercontent.com/92019801/146697272-c8f4fc21-55ec-4581-ad45-2e631468b49a.png)
 
-The context diagram shows the interaction between the open air quality dashboard system and three actors of dashboard users, dashboard administrators and air quality data repository. Their relationships are listed as follows:
+The context diagram shows the interaction between the open air quality app system and three actors of web app users, web app administrators and air quality data repository. Their relationships are listed as follows:
 
-   - #### Dashboard users - OAQ dashboard
+   - #### Web app users - OAQ app
      
-     Users will provide their registration details to the dashborad system, while the system will provide the air quality information to the users.
+     Users will provide their registration details to the web app system, while the system will provide the air quality information to the users.
 
-   - #### Dashboard administrators - OAQ dashboard
+   - #### Web app administrators - OAQ app
    
-     Since the web app is still in the initial stage, we currently only have a prepared air quality   dataset for London Bloomsbury, so there is only one available location to search. However, as the app matures, its information will be more comprehensive and there will definetely have more datasets in different regions, so the administrator can provide the system with the location details of the region to which the dataset belongs when a new dataset is added for search. Meanwhile, the system will provide reports to the administrators to view the operation of the app, including but not limited to the number of registrations, user comments, and the number of active users, etc.
+     Since the web app is still in the initial stage, we currently only have a prepared air quality dataset for London Bloomsbury, so there is only one available location to search. However, as the app matures, its information will be more comprehensive and there will definetely have more datasets in different regions, so the administrator can provide the system with the location details of the region to which the dataset belongs when a new dataset is added for search. Meanwhile, the system will provide reports to the administrators to view the operation of the app, including but not limited to the number of registrations, user comments, and the number of active users, etc.
 
-  - #### Air quality data repository - OAQ dahboard
+  - #### Air quality data repository - OAQ app
     All the datasets will be stored in the airquality repository, so it will provide the system with air quality index data for PM2.5 and PM10.
 
 
