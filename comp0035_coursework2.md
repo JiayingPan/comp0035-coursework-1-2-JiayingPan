@@ -57,24 +57,74 @@ From the table, it can be seen that the MoSCoW method is relatively simple and f
 ### Documented and prioritised requirements
 The requirements are documented and prioritised. After tabulating the requirements, UML use cases is produced to use as an additional requirements analysis to provide a richer picture to show how the system meets the goals of actors. It models and deepens the understanding of requirements. See full list of documented and prioritised requirements and assistive UML techniques in [requirements-list](requirements-list.md).
 
+	
 ## Design
 ### Structure and flow of the interface
-According to the results of the requirements in the previous part, wireframes are drawn to illustrate the interface and basic functions of this app. Considering the target users mainly include commuters, tourists, environmentalists and air quality specialists, most of them may open the app on the way to work or at any time to check the air condition. Therefore, this app is more suitable to design for mobile phones due to the portability and universality of mobile phones compared to desktops. A similar application is the weather app that is commonly used on every mobile phone. 
+In this project, wireframes are used to design the blueprint for the application interface and illustrate the basic functions of this app. The reason of using the wireframe technique can attribute to three points <sup>16</sup>:
+   - #### Save time
+     Because wireframes can be quickly made through rough sketches. Therefore, it becomes easier to eliminate major errors and make quick changes.
+	
+   - #### Help gather feedback
+     For user interface and user experience designers, collecting feedback from end users is very important. Wireframe can help to achieve this since they have no color, this makes it easier for end users to appreciate the user experience design features.
+	
+   - #### Create accurate designs
+     Different types of wireframes can help  user interface and user experience designers create accurate blueprints for their designs, because designers can review where each content is placed.
+
+Furthermore, wireframes are classified into three types - Low Fidelity Wireframe, Medium Fidelity Wireframe and High Fidelity Wireframe. In this prjoect High Fidelity Wireframe is generated to provide feature images and written content, which makes the shape of user interface components more specific. It is the most accurate type of wireframe and contains a complete blueprint of the design, almost similar to a visual design screen without too many colors.
+	
+Considering the composition of target users, mainly include commuters, tourists, environmentalists and air quality specialists, most of them may open the app on the way to work or at any time to check the air condition. Therefore, this app is more suitable to design for mobile phones due to the portability and universality of mobile phones compared to desktops. A similar application is the weather app that is commonly used on every mobile phone. 
 
 #### Wireframes:
 ![wireframe](https://user-images.githubusercontent.com/92019801/146794906-90b1f1b9-54c5-4fd8-896a-eb3bcb51f375.png)
 	
 In the graph above, the red lines represent the relationships and demonstrate the flow of wireframes. The round head of the line indicates the button that triggers the next wireframe display, and the arrow of the line indicates the destination. For example, if click the sign up button on the Login page, it will direct users to the registration page.
 
+	
+### Application structure
+In terms of the application design, UML is used to model the application and MVC pattern is applied to the flask web app. The reason of choosing the MVC pattern is listed below:
+   - #### Faster developement process
+     MVC supports rapid parallel development. If the MVC model is used to develop any specific Web application, programmers can work on the view and controller separately to create the business logic of the Web application.
+ 
+   - #### Ability to provide multiple views
+     In the MVC model, multiple views can be created for a model. Moreover, code duplication is very limited in this method because it separates data and business logic from display.
 
-### Relational database design
+   - #### Modification does not affect the entire model
+     It is very easy to add new types of views in the MVC pattern, because the model part does not depend on the view part. Therefore, any changes in the model will not affect the entire architecture.
+	
+   - #### MVC model returns the data without formatting <sup>17</sup>
+     The MVC mode returns data without applying any format, which means the same components can be used and called for use with any interface. For example, any type of data can be formatted using HTML, but it can also be formatted using Macromedia Flash or Dream viewer.
+
+#### Model (M):
+Class diagram:
+![class diagram](https://user-images.githubusercontent.com/92019801/146839929-7f21539f-e880-4c59-b97c-3a468fb8e182.png)
+
+#### Controller (C):
+| Route | View (wireframe) | Controller function | Function statement |
+| --- | --- | --- | --- |
+| '/' | Home (02) | index() | Renders home page |
+| ‘/account/signup’ | Registration (06, 11) | create_user() | Enrolls the account information of the new user in the database and dierect users to the login page |
+| ‘/account/login’ | Login (01)	| login(user) |	Takes the entered account information, checks against the details in the database, returns error if details incorrect otherwise redirects to users account page |
+| ‘/account/logout’ | Logout (14) | logout() | Disconnects the user and the account, and direct the user to the account login page |
+| ‘/account/modify’ | Modify details (15) | modify_account(userid) | Replaces the account information in the database with the newly entered information |
+| ‘/location/enter’ | Enter location (05) | show_location() save_location(select_location) | Lists the countries, cities and locations in the database, select a location and save it on the ‘My location’ page |
+| ‘/location/favorites’ | My location (04) | view_saved_locations() | Lists all saved locations |
+| ‘/menu’ | Menu (03) | get_menu() | Directs users to the menu page |
+| ‘/charts’ | View visulization (07, 12) | view_dashboard() update_dashboard(select_params) create_comment() | Calls the dashborad app, select pollutants or time period to update the dashboard view. Adds comments to update the page view |
+| ‘/dataset/view’ | View dataset (08) | view_dataset() download_dataset() | Shows the dataset of the selected location, dataset can be downloaded and saved on the ‘My data’ page |
+| ‘/dataset/favorites’ | My dataset (10) | view_download_datasets() | Lists all downloaded datasets |
+| ‘/messages’ | Messages (09) | get_messages() | Directs users to the messages page |
+| ‘/dataset_repository’ | Dataset repository (13) | view_dataset_repository () download_dataset() | Shows the dataset of all locations, datasets can be downloaded and saved on the ‘My data’ page |
+
+In the above table, some routes contain two wireframes numbers because of the existence of the vertical scrollbar. Under the same URL, the web page is divided into two parts due to the long page, so two wireframes are generated. Similarly, some routes also correspond to multiple controller functions, because each function listed may change the content of the page.
+
+#### View (V):
+The view is already covered by the wireframes.
+	
+
+### Relational database design 
 ERD diagram:
 ![entity relationship diagram-2](https://user-images.githubusercontent.com/92019801/146464594-2b8e485c-474f-4fac-a308-c6f7b2cbf49c.png)
-
-### Application structure
-Class diagram:
-![class diagram](https://user-images.githubusercontent.com/92019801/146464568-9bc0a398-1b29-4bc5-9402-d62118aef31c.png)
-
+	
 
 ## Testing
 ### Choice of unit testing library
@@ -153,6 +203,8 @@ Issues blocking my progress (state ‘None’ if there are no issues):
 13. https://www.prioritysystem.com/reasons2e.html
 14. http://www.uxforthemasses.com/priority-poker/
 15. https://airfocus.com/guides/prioritization/7-most-popular-prioritization-frameworks/kano-model/
+16. https://medium.com/detaux/what-is-ui-ux-wireframe-designerrs-46dac9c8a153
+17. https://www.brainvire.com/six-benefits-of-using-mvc-model-for-effective-web-application-development/
 	
 Delete this instruction text before submitting:
 
