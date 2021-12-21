@@ -2,5 +2,7 @@
 setuptools
 pandas
 numpy
-bcrypt
 matplotlib
+pytest
+bcrypt
+datetime

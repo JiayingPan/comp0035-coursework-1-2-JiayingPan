@@ -1,7 +1,6 @@
 from datetime import date
 import bcrypt
 
-
 class User(object):
     """A user who will use the dashboard and web application.
     Args:
@@ -16,12 +15,13 @@ class User(object):
         email (str): Email address
         hashed_password (bytes): Hash value of the password string
         dob (date): Date of birth
+        _is_logged_in(bool): Login status
     Methods:
         create_full_name: Creates the full names by concatenating the first names and last name
         calculate_age: Calculates the age from the date of birth
         hash_password: Create a hashed value of the string password
         is_correct_password: Checks if the string password matches the hashed password
-        is_logged_in: Checks log in status of users
+        is_logged_in: Checks login status of users
     """
 
     def __init__(self, first_name: str, last_name: str, email: str, username: str, password: str, dob: date = None):
@@ -29,6 +29,7 @@ class User(object):
         self.last_name = last_name
         self.email = email
         self.username = username
+        self.password = password
         self.hashed_password = self.hash_password(password)
         self.dob = dob
         self._is_logged_in = False
@@ -58,11 +59,6 @@ class User(object):
             age = today.year - self.dob.year - ((today.month, today.day) < (self.dob.month, self.dob.day))
             return age
 
-    #@property
-    #def hash_password(self):
-     #   return self.hashed_password
-
-    #@hash_password.setter
     def hash_password(self, password):
         """ Creates a hashed password from the string
         The bcrypt.hashpw() function takes a byte encoded arg, the password string therefore needs to be encoded.
@@ -73,9 +69,6 @@ class User(object):
         """
         salt = bcrypt.gensalt()
         self.hashed_password = bcrypt.hashpw(password.encode('utf-8'), salt)
-        #self.hashed_password = hashlib.sha256(str.encode(password)).hexdigest()
-        return password
-
 
     def is_correct_password(self, password):
         """ Checks whether the provided password string matches the hashed password
@@ -89,9 +82,6 @@ class User(object):
             return True
         else:
             return False
-        #hash_password = hashlib.sha256(str.encode(password)).hexdigest()
-        #return hash_password == self.hashed_password
-
 
     @property
     def is_logged_in(self):
@@ -99,11 +89,26 @@ class User(object):
 
     @is_logged_in.setter
     def is_logged_in(self, status: bool):
+        """
+        If the user is not logged in, log them in, otherwise log them out
+        Note: this is not how we will implement login functionality for Flask but will suffice for this example
+        :param status: Boolean
+        :return: sets _is_logged_in to either True or False depending on the value passed
+        """
         self._is_logged_in = status
 
     def login(self, username, password):
+        """
+        Query the database and check if the username and password match, if they do then the status changes to logged in
+        Note: This is not how to handle login for Flask! Added here just to provide code for the unit testing activity
+        """
         # Database query logic here, for now assume the userid and password are valid
         self.is_logged_in = True
 
     def logout(self):
+        """
+        Logs out a user if they are logged in
+        Note: This is not how to handle logout for Flask! Added here just to provide code for the unit testing activity
+        """
         self.is_logged_in = False
+
