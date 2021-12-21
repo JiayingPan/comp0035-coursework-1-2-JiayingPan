@@ -96,7 +96,7 @@ In terms of the application design, UML is used to model the application and MVC
 
 #### Model (M):
 Class diagram:
-![class diagram](https://user-images.githubusercontent.com/92019801/146839929-7f21539f-e880-4c59-b97c-3a468fb8e182.png)
+![class diagram](https://user-images.githubusercontent.com/92019801/146943543-fd9ff766-9973-4dab-84cb-97aae2c15bee.png)
 
 #### Controller (C):
 | Route | View (wireframe) | Controller function | Function statement |
@@ -136,13 +136,11 @@ An entity relationship diagram is used for the relational database design to pra
      The ER data model can be easily converted to any other data model with a few operations.
 	
 ER diagram:
-![entity relationship diagram](https://user-images.githubusercontent.com/92019801/146941287-95eeb2a3-732d-49c9-bbb5-a45ec69fbe01.png)
+![entity relationship diagram](https://user-images.githubusercontent.com/92019801/146959674-08722731-c9ce-4eab-aeec-3adeb6385bb5.png)
 	
-The provided ERD has been normalised where each column and row in the table is unique and their intersection has only one entry. Each tagle has a primary key, and the relationships between tables are shown by the different types of lines connecting primary and foreign keys, form one-to-many or only-one-to-many relationships.
-	
-The data type and constraint of for each attribute is listed in the third column. For example, 'varchar(50)' stands for variable-length string which stores a maximum of 50 characters. Therefore, its data type is string, and its constraint is not null but should be less than 50 characters.
-	
+The provided ERD has been normalised where each column and row in the table is unique and their intersection has only one entry. Each tagle has a primary key, and the relationships between tables are shown by the different types of lines connecting primary and foreign keys, form one-to-many or only-one-to-many relationships. In addition, the data types and constraints of the attributes in each table are displayed in the third column.
 
+	
 ## Testing
 ### Choice of unit testing library
 
