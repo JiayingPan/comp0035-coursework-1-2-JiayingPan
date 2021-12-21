@@ -34,16 +34,16 @@ def test_the_password_is_hashed(common_user): #successful
    """
    assert common_user.hashed_password == None
 
-def test_the_password_string_matches_hashed_password(common_user): #failed
+def test_the_password_string_matches_hashed_password(common_user): #successful
    """
    GIVEN the password of a user
    WHEN the password string is compared to the hashed password
    THEN the correctness of the password should be True
    """
    common_user.hash_password(common_user.password)
-   assert common_user.is_correct_password(common_user.password) is False
+   assert common_user.is_correct_password(common_user.password) is True
 
-def test_login_status_is_false_when_user_created(common_user):  #failed
+def test_login_status_is_true_when_user_created(common_user):  #failed
    """
    GIVEN a new user(created as a fixture)
    WHEN it the user has just been created
