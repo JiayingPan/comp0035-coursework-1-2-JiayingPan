@@ -122,8 +122,25 @@ The view is already covered by the wireframes.
 	
 
 ### Relational database design 
-ERD diagram:
-![entity relationship diagram-2](https://user-images.githubusercontent.com/92019801/146464594-2b8e485c-474f-4fac-a308-c6f7b2cbf49c.png)
+An entity relationship diagram is used for the relational database design to practice the conceptual and logical stages of designing a SQLite database. The advantages of using ER diagram are listed:
+   - #### Conceptual simplicity
+     An ERD can be drawn quickly if the relationship between entities and attributes is known.
+	
+   - #### Clear visual representation
+     The database structure can be easily understanded after consulting the diagram.
+	
+   - #### Communication effectiveness <sup>18</sup>
+     Standard symbols that represent different information help understand the work of the database after it is completed.
+	
+   - #### Great flexibility
+     The ER data model can be easily converted to any other data model with a few operations.
+	
+ER diagram:
+![entity relationship diagram](https://user-images.githubusercontent.com/92019801/146941287-95eeb2a3-732d-49c9-bbb5-a45ec69fbe01.png)
+	
+The provided ERD has been normalised where each column and row in the table is unique and their intersection has only one entry. Each tagle has a primary key, and the relationships between tables are shown by the different types of lines connecting primary and foreign keys, form one-to-many or only-one-to-many relationships.
+	
+The data type and constraint of for each attribute is listed in the third column. For example, 'varchar(50)' stands for variable-length string which stores a maximum of 50 characters. Therefore, its data type is string, and its constraint is not null but should be less than 50 characters.
 	
 
 ## Testing
@@ -205,7 +222,8 @@ Issues blocking my progress (state ‘None’ if there are no issues):
 15. https://airfocus.com/guides/prioritization/7-most-popular-prioritization-frameworks/kano-model/
 16. https://medium.com/detaux/what-is-ui-ux-wireframe-designerrs-46dac9c8a153
 17. https://www.brainvire.com/six-benefits-of-using-mvc-model-for-effective-web-application-development/
-	
+18. https://assignology.com/benefits-and-disadvantages-of-er-diagrams/
+
 Delete this instruction text before submitting:
 
 - Include references to any templates you have used.
