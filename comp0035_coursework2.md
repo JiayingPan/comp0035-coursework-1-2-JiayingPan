@@ -23,7 +23,7 @@ The elicitation process needs comprehensive thinking, researching and discoverin
 A table is made to compare the nine elicitation techniques identified by BABOK.
 | No. | Technique | Advantages | Disadvantages |  Is used in the project  |
 | :---: | :---: | --- | --- | :---: |
-| 1 | Interview | <ul><li>Ability to elicit ideas in a short period of time <li>Non-judgmental environment| <ul><li>Depends on participants’ creativity and willingness <li>Limited to the interpersonal characteristics of the participants <sup>1</sup> | ✅ | 
+| 1 | Interview | <ul><li>Encourages participation and creates empathy in a straightforward and basic manner <li>Discussion, in-depth explanations, nonverbal features observation, and private expression of ideas| <ul><li>Depends on participants’ creativity and willingness <li>Limited to the interpersonal characteristics of the participants <sup>1</sup> | ✅ | 
 | 2 | Workshop | <ul><li>Provide stakeholders with a collaborative environment for decision-making and mutual understanding <li>Immediate feedback and able to reach consensus | <ul><li>Effect highly dependent on the skills of the host and the knowledge of the participants <sup>2</sup> <li>The availability of stakeholders and many participants may slow down the process | ❌ | 
 | 3 | Survey/ Questionnaire | <ul><li>Questions are effective for statistical analysis and bring the insights and opinions <li>Time cost is low and can generate a large number of responses | <ul><li>Open questions require a high degree of analysis <li>Results may be not biased <sup>3</sup>| ❌ | 
 | 4 | Interface analysis | <ul><li>High-level view of interoperability <li>Plan impact on delivery date, more accurate and potential time savings and cost <sup>4</sup> | <ul><li>Does not provide insights about other aspects of the solution <li>Does not evaluate internal components | ❌ | 
@@ -234,28 +234,21 @@ Issues blocking my progress (state ‘None’ if there are no issues):
 - Coding: I still have to spend some time to find how to conduct a good unit test and write code with high quality. Because I have received feedback on my code in coursework1, so will try to improve this aspect in coursework2.
 	
 ## References
-1. https://babokpage.wordpress.com/techniques/brainstorming/
-2. https://babokpage.wordpress.com/techniques/requirements-workshops/
-3. https://babokpage.wordpress.com/techniques/surveyquestionnaire/
-4. https://babokpage.wordpress.com/techniques/interface-analysis/
-5. https://babokpage.wordpress.com/techniques/focus-groups/
-6. https://babokpage.wordpress.com/techniques/observation/
-7. https://babokpage.wordpress.com/techniques/brainstorming/
-8. https://babokpage.wordpress.com/techniques/prototyping/
-9. https://babokpage.wordpress.com/techniques/document-analysis/
-10. https://airfocus.com/guides/prioritization/7-most-popular-prioritization-frameworks/moscow-method/
-11. https://www.simplilearn.com/story-mapping-article
-12. https://medium.com/devlix-blog/prioritization-100-dollar-method-and-scale-9c3ccfcfe9f1
-13. https://www.prioritysystem.com/reasons2e.html
-14. http://www.uxforthemasses.com/priority-poker/
-15. https://airfocus.com/guides/prioritization/7-most-popular-prioritization-frameworks/kano-model/
-16. https://medium.com/detaux/what-is-ui-ux-wireframe-designerrs-46dac9c8a153
-17. https://www.brainvire.com/six-benefits-of-using-mvc-model-for-effective-web-application-development/
-18. https://assignology.com/benefits-and-disadvantages-of-er-diagrams/
-
-Delete this instruction text before submitting:
-
-- Include references to any templates you have used.
-- If you justify any of your choices with references then remember to also include these.
-- Use any [referencing style](https://library-guides.ucl.ac.uk/referencing-plagiarism/referencing-styles) that you are
-  used to using in your course.
+1. Interviews [Internet]. BABOK Page. 2021 [cited 21 December 2021]. Available from: https://babokpage.wordpress.com/techniques/interviews/
+2. Requirements Workshops [Internet]. BABOK Page. 2021 [cited 21 December 2021]. Available from: https://babokpage.wordpress.com/techniques/requirements-workshops/
+3. Survey/Questionnaire [Internet]. BABOK Page. 2021 [cited 21 December 2021]. Available from: https://babokpage.wordpress.com/techniques/surveyquestionnaire/
+4. Interface Analysis [Internet]. BABOK Page. 2021 [cited 21 December 2021]. Available from: https://babokpage.wordpress.com/techniques/interface-analysis/
+5. Focus Groups [Internet]. BABOK Page. 2021 [cited 21 December 2021]. Available from: https://babokpage.wordpress.com/techniques/focus-groups/
+6. Observation [Internet]. BABOK Page. 2021 [cited 21 December 2021]. Available from: https://babokpage.wordpress.com/techniques/observation/
+7. Brainstorming [Internet]. BABOK Page. 2021 [cited 21 December 2021]. Available from: https://babokpage.wordpress.com/techniques/brainstorming/
+8. Prototyping [Internet]. BABOK Page. 2021 [cited 21 December 2021]. Available from: https://babokpage.wordpress.com/techniques/prototyping/
+9. Document Analysis [Internet]. BABOK Page. 2021 [cited 21 December 2021]. Available from: https://babokpage.wordpress.com/techniques/document-analysis/
+10. MoSCoW Method [Internet]. Airfocus.com. 2021 [cited 21 December 2021]. Available from: https://airfocus.com/guides/prioritization/7-most-popular-prioritization-frameworks/moscow-method/
+11. Story Mapping: Definition, Overview, Benefits, and How to Create a Story Map [Internet]. Simplilearn. 2021 [cited 21 December 2021]. Available from: https://www.simplilearn.com/story-mapping-article
+12. Prioritization: 100 Dollar Method and Scale [Internet]. Medium. 2021 [cited 21 December 2021]. Available from: https://medium.com/devlix-blog/prioritization-100-dollar-method-and-scale-9c3ccfcfe9f1
+13. Project Prioritization Methods [Internet]. Prioritysystem.com. 2021 [cited 21 December 2021]. Available from: https://www.prioritysystem.com/reasons2e.html
+14. A guide to priority poker - UXM [Internet]. UXM. 2021 [cited 21 December 2021]. Available from: http://www.uxforthemasses.com/priority-poker/
+15. Kano Model [Internet]. Airfocus.com. 2021 [cited 21 December 2021]. Available from: https://airfocus.com/guides/prioritization/7-most-popular-prioritization-frameworks/kano-model/
+16. What is Wireframing in UI/UX Design? [Internet]. Medium. 2021 [cited 21 December 2021]. Available from: https://medium.com/detaux/what-is-ui-ux-wireframe-designerrs-46dac9c8a153
+17. [Internet]. Brainvire.com. 2021 [cited 21 December 2021]. Available from: https://www.brainvire.com/six-benefits-of-using-mvc-model-for-effective-web-application-development/
+18. Health Pulmonology Urology E, Paper D, us A. Benefits and Disadvantages of ER Diagrams | Healthcare Essay Example [Internet]. Assignology. 2021 [cited 21 December 2021]. Available from: https://assignology.com/benefits-and-disadvantages-of-er-diagrams/
