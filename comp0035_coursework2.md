@@ -143,7 +143,7 @@ The provided ERD has been normalised where each column and row in the table is u
 	
 ## Testing
 ### Choice of unit testing library
-Pytest
+Pytest. It can run numerous tests in parallel, reducing the test suite's execution time. It also has its own method for automatically detecting the test file and test functions if they are not explicitly provided.
 	
 ### Tests
 All tests are around the 'User' class, therefore the User module is saved in a python package named 'Air_quality', with python files [user.py](Air_quality/user.py) in it to write tests code for the module.
