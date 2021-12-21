@@ -146,9 +146,9 @@ The provided ERD has been normalised where each column and row in the table is u
 Pytest
 	
 ### Tests
-All tests are around the 'User' class, therefore the User module is saved in a python package named Air_quality, with python files [user.py](Air_quality/user.py) in it to write tests code for the module.
+All tests are around the 'User' class, therefore the User module is saved in a python package named 'Air_quality', with python files [user.py](Air_quality/user.py) in it to write tests code for the module.
 	
-A directory named Test is created to run the tests. The directory includes two files of [conftest.py](Test/conftest.py) to define a fixture that provides data to create a new user, and [test_user](Test/test_user.py) to assert values and carry out the test.
+A directory named 'Test' is created to run the tests. The directory includes two files of [conftest.py](Test/conftest.py) to define a fixture that provides data to create a new user, and [test_user.py](Test/test_user.py) to assert values and carry out the test.
 
 ### Test results
 Provide evidence that the tests have been run and the results of the tests (e.g. screenshot).
@@ -203,7 +203,7 @@ What I plan to do in the next week:
 - Writing in GitHub: After putting everything into the cw2 repository, I will do some writing to smoothly connect all the work to complete the report.
 
 Issues blocking my progress (state ‘None’ if there are no issues):
-- Coding: I still have to spend some time to find how to conduct a good unit test and write code with high quality. Because I have received feedback on my code in coursework1, so will try to improve this aspect  in coursework2.
+- Coding: I still have to spend some time to find how to conduct a good unit test and write code with high quality. Because I have received feedback on my code in coursework1, so will try to improve this aspect in coursework2.
 	
 ## References
 1. https://babokpage.wordpress.com/techniques/brainstorming/
