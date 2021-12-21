@@ -136,7 +136,7 @@ An entity relationship diagram is used for the relational database design to pra
      The ER data model can be easily converted to any other data model with a few operations.
 	
 ER diagram:
-![entity relationship diagram](https://user-images.githubusercontent.com/92019801/146959674-08722731-c9ce-4eab-aeec-3adeb6385bb5.png)
+![entity relationship diagram](https://user-images.githubusercontent.com/92019801/146960657-264ef506-98bd-4234-8097-d77c5c8e8c7d.png)
 	
 The provided ERD has been normalised where each column and row in the table is unique and their intersection has only one entry. Each tagle has a primary key, and the relationships between tables are shown by the different types of lines connecting primary and foreign keys, form one-to-many or only-one-to-many relationships. In addition, the data types and constraints of the attributes in each table are displayed in the third column.
 
