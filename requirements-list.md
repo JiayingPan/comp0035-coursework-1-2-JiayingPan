@@ -4,7 +4,7 @@
 Users in this case are classified into two categories, which are general public and internal staffs.
 
 #### General public that consists of the target audience of the web app (external users)
-| No. | Role | User Stories | Acceptance Criteria |  Priority  |
+| No. | Personoa | User Stories | Acceptance Criteria |  Priority  |
 | :---: | :---: | --- | --- | :---: |
 | 1 | Commutor | As a website user, I want to be notified in time when the data is updated | <ul><li>The system sets whether to prompt the option to display the latest data in the notification bar of the phone | Could have | 
 | 2 | Commutor | As a website user, I want search functionality to be available on all pages so that I can search for data using keywords. | <ul><li>The search box accepts alphanumeric values <li>Search results show 10 items per page <li>The system responds to all search requests within 2 seconds after receiving the request |  Should have |
