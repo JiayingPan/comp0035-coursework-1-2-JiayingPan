@@ -180,9 +180,9 @@ The missing terms are checked to find why the coverage is not achieving 100%. Th
 ![unkown user age](https://user-images.githubusercontent.com/92019801/147003608-8ef0c844-4c9d-49a8-891f-9ef9e6329b56.png)
 
 ### Continuous integration (optional)
-GitHub Actions is used to establish a continuous integration pipeline. However it failed provided reports. The reason of the failure has been investigated and it is mainly due to the Air_quality is a directory rather than a package, that is why it displayed 'unrecognized argument'. So I tried to add an new empty file named _init_.py under the Air_quality directory and then commit and push it to produce a new workflow. However it still failed.
+GitHub Actions is used to establish a continuous integration pipeline [link to the .yml](.github/workflows/python-app.yml). However it failed provided reports. The reason of the failure has been investigated and it is mainly due to the Air_quality is a directory rather than a package, that is why it displayed 'unrecognized argument'. So I tried to add an new empty file named _init_.py under the Air_quality directory and then commit and push it to produce a new workflow. However it still failed.
 ![githubaction](https://user-images.githubusercontent.com/92019801/147006823-e02058cf-1c96-4ac3-a0b9-7d310ed52421.png)
-[link to the .yml](.github/workflows/python-app.yml)
+	
 
 ## Weekly progress reports
 ### Report 1
