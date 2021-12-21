@@ -41,7 +41,8 @@ def test_the_password_string_matches_hashed_password(common_user): #successful
    THEN the correctness of the password should be True
    """
    common_user.hash_password(common_user.password)
-   assert common_user.is_correct_password(common_user.password) is True
+   correct_password = common_user.is_correct_password(common_user.password)
+   assert correct_password is True
 
 def test_login_status_is_true_when_user_created(common_user):  #failed
    """
