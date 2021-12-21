@@ -62,4 +62,3 @@ def test_login_status_is_false_when_user_logs_out(common_user): #successful
    assert common_user.is_logged_in is True
    common_user.logout()
    assert common_user.is_logged_in is False
-

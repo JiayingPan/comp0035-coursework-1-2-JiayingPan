@@ -111,4 +111,3 @@ class User(object):
         Note: This is not how to handle logout for Flask! Added here just to provide code for the unit testing activity
         """
         self.is_logged_in = False
-
