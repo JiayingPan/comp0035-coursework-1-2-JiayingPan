@@ -173,6 +173,12 @@ A directory named 'Test' is created to run the tests. The directory includes two
 Evidence of code running and its results： 
 ![tests](https://user-images.githubusercontent.com/92019801/146996235-2d2300f7-a836-49bb-8f9e-1b36dd9b346b.png)
 
+Code coverage and missing terms:
+![coverage](https://user-images.githubusercontent.com/92019801/147002194-a6d0841f-5f2e-44cf-bd2c-ad4c05a17eb8.png)
+
+The missing terms are checked to find why the coverage is not achieving 100%. The reason is that there is another situation under the'calculate_age' function, that is, the date of birth is unknown (not provided by the user). Therefore, an additional test was added to test this situation. Testing has shown that it works with correct data, when "age is not calculated, date of birth is unknown" is asserted as the return value.
+![unkown user age](https://user-images.githubusercontent.com/92019801/147003608-8ef0c844-4c9d-49a8-891f-9ef9e6329b56.png)
+
 ### Continuous integration (optional)
 Consider using GitHub Actions (or other) to establish a continuous integration pipeline. If you do so then please provide a link to the .yml and a screenshot of the results of a workflow run.
 
