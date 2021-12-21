@@ -164,10 +164,10 @@ A directory named 'Test' is created to run the tests. The directory includes two
    - #### Test the password is correct
      The password string '12345678' should match the hashed password. The test shows it works with correct data when 'True' is asserted as return value.
 
-   - ### Test the login status when user is created
+   - #### Test the login status when user is created
      When the user is just created, it should be logout state with default value False. The test shows it failed with the incorrect data, when 'True' is asserted as the default value of the initial login status.
 	
-   - ### Test the login status when user is logged out
+   - #### Test the login status when user is logged out
      When the user is logged out, it should have a login status with default value False. The test shows it works with the correct data, when 'False' is asserted as the default value of the login status.
 	
 Evidence of code running and its results： 
