@@ -151,7 +151,27 @@ All tests are around the 'User' class, therefore the User module is saved in a p
 A directory named 'Test' is created to run the tests. The directory includes two files of [conftest.py](Test/conftest.py) to define a fixture that provides data to create a new user, and [test_user.py](Test/test_user.py) to assert values and carry out the test.
 
 ### Test results
-Provide evidence that the tests have been run and the results of the tests (e.g. screenshot).
+6 tests are performed as follows, of which 4 succeeded and 2 failed:
+   - #### Test user full name
+     'Jiaying' and 'Pan' is input as the first name and last name in the user fixture. The test shows it works with correct data when 'Jiaying Pan' is asserted as full name.
+
+   - #### Test user age
+     'year=2001, month=6, day=25' is input as the date of birth in the user fixture. The correct age should be 20. The test shows it fails with the incorrect data when '60' is asserted as age.
+	
+   - #### Test the password is hashed
+     '12345678' is input as the password. It has been cnoverted to hashed value and return none. The test shows it works with correct data when 'None' is asserted as return value.
+	
+   - #### Test the password is correct
+     The password string '12345678' should match the hashed password. The test shows it works with correct data when 'True' is asserted as return value.
+
+   - ### Test the login status when user is created
+     When the user is just created, it should be logout state with default value False. The test shows it failed with the incorrect data, when 'True' is asserted as the default value of the initial login status.
+	
+   - ### Test the login status when user is logged out
+     When the user is logged out, it should have a login status with default value False. The test shows it works with the correct data, when 'False' is asserted as the default value of the login status.
+	
+Evidence of code running and its results： 
+![tests](https://user-images.githubusercontent.com/92019801/146996235-2d2300f7-a836-49bb-8f9e-1b36dd9b346b.png)
 
 ### Continuous integration (optional)
 Consider using GitHub Actions (or other) to establish a continuous integration pipeline. If you do so then please provide a link to the .yml and a screenshot of the results of a workflow run.
