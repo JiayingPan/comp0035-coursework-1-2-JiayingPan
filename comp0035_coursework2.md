@@ -143,9 +143,12 @@ The provided ERD has been normalised where each column and row in the table is u
 	
 ## Testing
 ### Choice of unit testing library
-
+Pytest
+	
 ### Tests
-The tests should be in a separate and appropriately named file/directory.
+Modules are saved in a python package named [Air_quality]().
+	
+All tests are saved in a directory named [Test]() in the repository, which includes two files of [conftest.py](Test/conftest.py) to define a fixture that provides data to create a new user., and [test_user]() to write the test code.
 
 ### Test results
 Provide evidence that the tests have been run and the results of the tests (e.g. screenshot).
